@@ -1,3 +1,4 @@
+/*
 using Microsoft.AspNetCore.Mvc;
 using BunkerGame.Backend.DTOs;
 using BunkerGame.Backend.Services;
@@ -32,3 +33,4 @@ public class AuthController : ControllerBase
         return Ok(new { Email = result });
     }
 }
+*/
