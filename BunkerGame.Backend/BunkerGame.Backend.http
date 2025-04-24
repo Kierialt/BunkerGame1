@@ -1,0 +1,6 @@
+@BunkerGame.Backend_HostAddress = http://localhost:5138
+
+GET {{BunkerGame.Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
