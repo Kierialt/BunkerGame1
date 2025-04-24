@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/BunkerGame.Frontend.props" />
+</Project>

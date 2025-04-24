@@ -1,0 +1,67 @@
+@page "/game"
+@inject HttpClient Http
+
+<h3>Добро пожаловать в Bunker Game</h3>
+
+@if (!isAuthorized)
+{
+    <input placeholder="Введите имя" @bind="playerName" />
+    <button @onclick="AuthorizePlayer">Войти</button>
+    <p>@status</p>
+}
+else if (!gameStarted)
+{
+    <h4>Меню</h4>
+    <button @onclick="StartGame">Старт</button>
+    <button @onclick="Logout">Назад</button>
+    <p>@status</p>
+}
+else
+{
+    <h4>Игра идет...</h4>
+    <p>@status</p>
+}
+
+@code {
+    private string playerName = "";
+    private string status = "";
+    private bool isAuthorized = false;
+    private bool gameStarted = false;
+
+    private async Task AuthorizePlayer()
+    {
+        var response = await Http.PostAsJsonAsync("api/game/login", new { name = playerName });
+
+        if (response.IsSuccessStatusCode)
+        {
+            isAuthorized = true;
+            status = await response.Content.ReadAsStringAsync();
+        }
+        else
+        {
+            status = "Ошибка входа. Введите имя.";
+        }
+    }
+
+    private async Task StartGame()
+    {
+        var response = await Http.GetAsync("api/game/start");
+        if (response.IsSuccessStatusCode)
+        {
+            gameStarted = true;
+            status = await response.Content.ReadAsStringAsync();
+        }
+        else
+        {
+            status = "Ошибка при запуске игры.";
+        }
+    }
+
+    private void Logout()
+    {
+        isAuthorized = false;
+        playerName = "";
+        gameStarted = false;
+        status = "";
+    }
+}

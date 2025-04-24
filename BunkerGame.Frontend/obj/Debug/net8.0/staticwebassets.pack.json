@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/BunkerGame.Frontend.bundle.scp.css",
+      "PackagePath": "staticwebassets/BunkerGame.Frontend.kj8tqdq4db.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BunkerGame.Frontend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BunkerGame.Frontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.BunkerGame.Frontend.props",
+      "PackagePath": "build\\BunkerGame.Frontend.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BunkerGame.Frontend.props",
+      "PackagePath": "buildMultiTargeting\\BunkerGame.Frontend.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BunkerGame.Frontend.props",
+      "PackagePath": "buildTransitive\\BunkerGame.Frontend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

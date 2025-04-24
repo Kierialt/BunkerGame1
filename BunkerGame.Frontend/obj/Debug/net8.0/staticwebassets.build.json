@@ -1,0 +1,640 @@
+{
+  "Version": 1,
+  "Hash": "S8eVc1mSHBFYEmgAeePVD96xUVPNy4YZOd+2RSsOhnQ=",
+  "Source": "BunkerGame.Frontend",
+  "BasePath": "_content/BunkerGame.Frontend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BunkerGame.Frontend/wwwroot",
+      "Source": "BunkerGame.Frontend",
+      "ContentRoot": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/obj/Debug/net8.0/scopedcss/bundle/BunkerGame.Frontend.styles.css",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/obj/Debug/net8.0/scopedcss/bundle/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "BunkerGame.Frontend#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "kj8tqdq4db",
+      "Integrity": "gB5T5FBDoH87SZNbDyo8aRK6zD30rY6dJg1H2GepcA4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/obj/Debug/net8.0/scopedcss/bundle/BunkerGame.Frontend.styles.css"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/BunkerGame.Frontend.bundle.scp.css",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "BunkerGame.Frontend#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "kj8tqdq4db",
+      "Integrity": "gB5T5FBDoH87SZNbDyo8aRK6zD30rY6dJg1H2GepcA4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/BunkerGame.Frontend.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/app.css",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v5b7vqvy3h",
+      "Integrity": "Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/bootstrap/bootstrap.min.css",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/bootstrap/bootstrap.min.css.map",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/favicon.png",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 15:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo="
+        }
+      ]
+    },
+    {
+      "Route": "app.v5b7vqvy3h.css",
+      "AssetFile": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 15:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v5b7vqvy3h"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q8siP9SiZV8GNOzlkHETapY6R/XrhQbE90aAnlHmHFo="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/bootstrap/bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 15:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/bootstrap/bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 15:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 15:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 15:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "BunkerGame.Frontend.bundle.scp.css",
+      "AssetFile": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/BunkerGame.Frontend.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5718"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gB5T5FBDoH87SZNbDyo8aRK6zD30rY6dJg1H2GepcA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 17:25:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gB5T5FBDoH87SZNbDyo8aRK6zD30rY6dJg1H2GepcA4="
+        }
+      ]
+    },
+    {
+      "Route": "BunkerGame.Frontend.kj8tqdq4db.bundle.scp.css",
+      "AssetFile": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/BunkerGame.Frontend.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5718"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gB5T5FBDoH87SZNbDyo8aRK6zD30rY6dJg1H2GepcA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 17:25:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kj8tqdq4db"
+        },
+        {
+          "Name": "label",
+          "Value": "BunkerGame.Frontend.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gB5T5FBDoH87SZNbDyo8aRK6zD30rY6dJg1H2GepcA4="
+        }
+      ]
+    },
+    {
+      "Route": "BunkerGame.Frontend.kj8tqdq4db.styles.css",
+      "AssetFile": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/obj/Debug/net8.0/scopedcss/bundle/BunkerGame.Frontend.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5718"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gB5T5FBDoH87SZNbDyo8aRK6zD30rY6dJg1H2GepcA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 17:25:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kj8tqdq4db"
+        },
+        {
+          "Name": "label",
+          "Value": "BunkerGame.Frontend.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gB5T5FBDoH87SZNbDyo8aRK6zD30rY6dJg1H2GepcA4="
+        }
+      ]
+    },
+    {
+      "Route": "BunkerGame.Frontend.styles.css",
+      "AssetFile": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/obj/Debug/net8.0/scopedcss/bundle/BunkerGame.Frontend.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5718"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gB5T5FBDoH87SZNbDyo8aRK6zD30rY6dJg1H2GepcA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 17:25:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gB5T5FBDoH87SZNbDyo8aRK6zD30rY6dJg1H2GepcA4="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 15:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "/Users/eugene/Desktop/c#/BunkerGame/BunkerGame.Frontend/wwwroot/favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Apr 2025 15:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    }
+  ]
+}

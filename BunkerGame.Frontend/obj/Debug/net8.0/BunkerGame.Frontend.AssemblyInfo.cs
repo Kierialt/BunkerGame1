@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BunkerGame.Frontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d91f0b2291dc4e9fbea5f902b6b1a3aa82d6b96e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cbd9d67dff801afbb042715e4dd29d57c450f125")]
 [assembly: System.Reflection.AssemblyProductAttribute("BunkerGame.Frontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BunkerGame.Frontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
