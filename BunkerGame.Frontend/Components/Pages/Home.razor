@@ -6,7 +6,7 @@
 
 Welcome to your new app. *@
 
-@page "/"
+@* @page "/"
 
 <h1 class="text-3xl font-bold text-center mt-10">Bunker Game</h1>
 
@@ -23,4 +23,34 @@ Welcome to your new app. *@
         Console.WriteLine("New Game Started!");
         // Здесь позже будет переход на другой экран или вызов API
     }
+} *@
+
+@using BunkerGame.Frontend.Components.Shared
+
+@page "/"
+
+<h1 class="text-center mt-5 display-4">Bunker Game</h1>
+
+<div class="d-flex justify-content-center mt-4">
+    <!-- Кнопка для старта игры -->
+    <StartGameButton OnClick="StartNewGame" />
+
+    <!-- Кнопка для отображения правил игры -->
+    <RulesButton OnClick="ShowRules" />
+</div>
+
+@code {
+    private void StartNewGame()
+    {
+        Console.WriteLine("New Game Started!");
+        // Здесь позже будет переход на другой экран или вызов API
+    }
+
+    private void ShowRules()
+    {
+        Console.WriteLine("Displaying game rules!");
+        // Здесь будет логика для отображения правил игры (можно использовать модальное окно или другой механизм)
+    }
 }
+
+

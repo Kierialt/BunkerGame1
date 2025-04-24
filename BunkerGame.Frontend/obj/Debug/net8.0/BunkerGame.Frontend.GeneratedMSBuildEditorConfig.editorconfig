@@ -40,6 +40,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/c\#/BunkerGame/BunkerGame1/BunkerGame.Frontend/Components/Shared/RulesButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcUnVsZXNCdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\#/BunkerGame/BunkerGame1/BunkerGame.Frontend/Components/Shared/StartGameButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcU3RhcnRHYW1lQnV0dG9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/c\#/BunkerGame/BunkerGame1/BunkerGame.Frontend/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
