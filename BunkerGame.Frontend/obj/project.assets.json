@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\BunkerGame.Frontend.csproj",
+      "projectUniqueName": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\BunkerGame.Frontend.csproj",
       "projectName": "BunkerGame.Frontend",
-      "projectPath": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\BunkerGame.Frontend.csproj",
+      "projectPath": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\BunkerGame.Frontend.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\obj\\",
+      "outputPath": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
