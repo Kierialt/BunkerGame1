@@ -1,23 +1,31 @@
 {
   "Files": [
     {
-      "Id": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BunkerGame.Frontend.bundle.scp.css",
+      "Id": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BunkerGame.Frontend.bundle.scp.css",
       "PackagePath": "staticwebassets\\BunkerGame.Frontend.7sse9aev8z.bundle.scp.css"
     },
     {
-      "Id": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\app.css",
+      "Id": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\abandoned train.jpg",
+      "PackagePath": "staticwebassets\\abandoned train.jpg"
+    },
+    {
+      "Id": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\abondoned city.jpg",
+      "PackagePath": "staticwebassets\\abondoned city.jpg"
+    },
+    {
+      "Id": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\favicon.png",
+      "Id": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

@@ -1,9 +1,29 @@
-<button class="bg-blue-500 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded"
-        @onclick="OnClick">
+@* <button class="btn btn-dark btn-lg mx-2 bunker-btn" @onclick="OnClick">
+    Game Rules
+</button>
+
+<style>
+    .bunker-btn {
+        background-color: #2e2e2e; /* очень тёмный серый */
+        border: 2px solid #8b0000; /* бордер тёмно-красный */
+        color: #f8f9fa; /* светлый текст */
+        font-family: 'Courier New', Courier, monospace; /* шрифт типа старой печатной машинки */
+        letter-spacing: 1px;
+        padding: 15px 30px;
+        margin: 10px 0; /* чтобы кнопки не слипались */
+        transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .bunker-btn:hover {
+        background-color: #8b0000; /* тёмно-красный при наведении */
+        transform: scale(1.05);
+    }
+</style> *@
+<button class="button-postapocalyptic" @onclick="OnClick">
     Game Rules
 </button>
 
 @code {
-    [Parameter] 
+    [Parameter]
     public EventCallback OnClick { get; set; }
 }

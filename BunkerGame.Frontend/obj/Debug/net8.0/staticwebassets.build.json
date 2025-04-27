@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BdQq5yVDgsgE99QzZ0cle3h8c0D26CZpsE/LLULxP/A=",
+  "Hash": "EMcSqOZjy6+mzgzLHaAATWRV+ycm9I7jYGjbGVNqQ1g=",
   "Source": "BunkerGame.Frontend",
   "BasePath": "_content/BunkerGame.Frontend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BunkerGame.Frontend\\wwwroot",
       "Source": "BunkerGame.Frontend",
-      "ContentRoot": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
       "BasePath": "_content/BunkerGame.Frontend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BunkerGame.Frontend.styles.css",
+      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BunkerGame.Frontend.styles.css",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BunkerGame.Frontend",
       "RelativePath": "BunkerGame.Frontend#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "NzqMVAd3/gZngZLRVzI4rPWPMRBE77q+XO8ulEKB6lY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BunkerGame.Frontend.styles.css"
+      "OriginalItemSpec": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BunkerGame.Frontend.styles.css"
     },
     {
-      "Identity": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BunkerGame.Frontend.bundle.scp.css",
+      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BunkerGame.Frontend.bundle.scp.css",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BunkerGame.Frontend",
       "RelativePath": "BunkerGame.Frontend#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,55 @@
       "Integrity": "NzqMVAd3/gZngZLRVzI4rPWPMRBE77q+XO8ulEKB6lY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BunkerGame.Frontend.bundle.scp.css"
+      "OriginalItemSpec": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BunkerGame.Frontend.bundle.scp.css"
     },
     {
-      "Identity": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\app.css",
+      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\abandoned train.jpg",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "abandoned train#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e80eg3xcii",
+      "Integrity": "rgRqcO1vJ9JZeT5OS4RuYm9jleG02N9i8UAlG7iCmo0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\abandoned train.jpg"
+    },
+    {
+      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\abondoned city.jpg",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "abondoned city#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tvuciwtzo8",
+      "Integrity": "WYm6m2AWrK4wGGbFgLPSvpsZPMvDKQeKDJYJ597dolM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\abondoned city.jpg"
+    },
+    {
+      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\app.css",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
       "BasePath": "_content/BunkerGame.Frontend",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -73,17 +115,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "da95v2qkru",
-      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "Fingerprint": "2cs7wuzrjf",
+      "Integrity": "MtMXYj6kbrpV+cmU+KWGUuMk7+HcCW2HrMsr8SVa4xo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
       "BasePath": "_content/BunkerGame.Frontend",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
       "BasePath": "_content/BunkerGame.Frontend",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\favicon.png",
+      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\favicon.png",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
       "BasePath": "_content/BunkerGame.Frontend",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -145,8 +187,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "app.css",
-      "AssetFile": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\app.css",
+      "Route": "abandoned train.e80eg3xcii.jpg",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\abandoned train.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -155,56 +197,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2591"
+          "Value": "79880"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+          "Value": "\"rgRqcO1vJ9JZeT5OS4RuYm9jleG02N9i8UAlG7iCmo0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 16:12:03 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
-        }
-      ]
-    },
-    {
-      "Route": "app.da95v2qkru.css",
-      "AssetFile": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2591"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 16:12:03 GMT"
+          "Value": "Sun, 27 Apr 2025 17:46:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -214,7 +219,171 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "da95v2qkru"
+          "Value": "e80eg3xcii"
+        },
+        {
+          "Name": "label",
+          "Value": "abandoned train.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rgRqcO1vJ9JZeT5OS4RuYm9jleG02N9i8UAlG7iCmo0="
+        }
+      ]
+    },
+    {
+      "Route": "abandoned train.jpg",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\abandoned train.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rgRqcO1vJ9JZeT5OS4RuYm9jleG02N9i8UAlG7iCmo0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 17:46:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rgRqcO1vJ9JZeT5OS4RuYm9jleG02N9i8UAlG7iCmo0="
+        }
+      ]
+    },
+    {
+      "Route": "abondoned city.jpg",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\abondoned city.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "361755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WYm6m2AWrK4wGGbFgLPSvpsZPMvDKQeKDJYJ597dolM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 17:46:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WYm6m2AWrK4wGGbFgLPSvpsZPMvDKQeKDJYJ597dolM="
+        }
+      ]
+    },
+    {
+      "Route": "abondoned city.tvuciwtzo8.jpg",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\abondoned city.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "361755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WYm6m2AWrK4wGGbFgLPSvpsZPMvDKQeKDJYJ597dolM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 17:46:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tvuciwtzo8"
+        },
+        {
+          "Name": "label",
+          "Value": "abondoned city.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WYm6m2AWrK4wGGbFgLPSvpsZPMvDKQeKDJYJ597dolM="
+        }
+      ]
+    },
+    {
+      "Route": "app.2cs7wuzrjf.css",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MtMXYj6kbrpV+cmU+KWGUuMk7+HcCW2HrMsr8SVa4xo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 18:13:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2cs7wuzrjf"
         },
         {
           "Name": "label",
@@ -222,13 +391,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+          "Value": "sha256-MtMXYj6kbrpV+cmU+KWGUuMk7+HcCW2HrMsr8SVa4xo="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MtMXYj6kbrpV+cmU+KWGUuMk7+HcCW2HrMsr8SVa4xo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 18:13:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MtMXYj6kbrpV+cmU+KWGUuMk7+HcCW2HrMsr8SVa4xo="
         }
       ]
     },
     {
       "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -249,7 +455,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 16:12:03 GMT"
+          "Value": "Sun, 27 Apr 2025 16:54:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -273,7 +479,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -294,7 +500,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 16:12:03 GMT"
+          "Value": "Sun, 27 Apr 2025 16:54:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -310,7 +516,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -331,7 +537,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 16:12:03 GMT"
+          "Value": "Sun, 27 Apr 2025 16:54:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -355,7 +561,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -376,7 +582,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 16:12:03 GMT"
+          "Value": "Sun, 27 Apr 2025 16:54:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -392,7 +598,7 @@
     },
     {
       "Route": "BunkerGame.Frontend.7sse9aev8z.bundle.scp.css",
-      "AssetFile": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BunkerGame.Frontend.bundle.scp.css",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BunkerGame.Frontend.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -413,7 +619,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:30:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:19:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -437,7 +643,7 @@
     },
     {
       "Route": "BunkerGame.Frontend.7sse9aev8z.styles.css",
-      "AssetFile": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BunkerGame.Frontend.styles.css",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BunkerGame.Frontend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -458,7 +664,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:30:07 GMT"
+          "Value": "Sun, 27 Apr 2025 16:54:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -482,7 +688,7 @@
     },
     {
       "Route": "BunkerGame.Frontend.bundle.scp.css",
-      "AssetFile": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BunkerGame.Frontend.bundle.scp.css",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BunkerGame.Frontend.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -503,7 +709,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:30:07 GMT"
+          "Value": "Sun, 27 Apr 2025 17:19:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -519,7 +725,7 @@
     },
     {
       "Route": "BunkerGame.Frontend.styles.css",
-      "AssetFile": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BunkerGame.Frontend.styles.css",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BunkerGame.Frontend.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -540,7 +746,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 19:30:07 GMT"
+          "Value": "Sun, 27 Apr 2025 16:54:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -556,7 +762,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -577,7 +783,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 16:12:03 GMT"
+          "Value": "Sun, 27 Apr 2025 16:54:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -601,7 +807,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "D:\\c#\\BunkerGame\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -622,7 +828,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 24 Apr 2025 16:12:03 GMT"
+          "Value": "Sun, 27 Apr 2025 16:54:12 GMT"
         },
         {
           "Name": "Cache-Control",
