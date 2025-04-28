@@ -1,11 +1,13 @@
-/*
 using Microsoft.AspNetCore.Mvc;
 using BunkerGame.Backend.DTOs;
 using BunkerGame.Backend.Services;
 
+namespace BunkerGame.Backend.Controllers;
+
+
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("[controller]/[action]")]
 public class AuthController : ControllerBase
 {
     private readonly IAuthService _authService;
@@ -15,7 +17,7 @@ public class AuthController : ControllerBase
         _authService = authService;
     }
 
-    [HttpPost("register")]
+    [HttpPost]
     public async Task<IActionResult> Register(RegisterDto request)
     {
         var success = await _authService.RegisterAsync(request);
@@ -24,7 +26,7 @@ public class AuthController : ControllerBase
         return Ok("Registered successfully");
     }
 
-    [HttpPost("login")]
+    [HttpPost]
     public async Task<IActionResult> Login(LoginDto request)
     {
         var result = await _authService.LoginAsync(request);
@@ -33,4 +35,3 @@ public class AuthController : ControllerBase
         return Ok(new { Email = result });
     }
 }
-*/
