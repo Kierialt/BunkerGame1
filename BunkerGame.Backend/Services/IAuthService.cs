@@ -1,6 +1,8 @@
+using BunkerGame.Backend.DTOs;
 namespace BunkerGame.Backend.Services;
 
-public class IAuthService
+public interface IAuthService
 {
-    
+    Task<bool> RegisterAsync(RegisterDto request);
+    Task<string?> LoginAsync(LoginDto request);
 }
