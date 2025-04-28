@@ -4,10 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 namespace BunkerGame.Backend.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("[controller]/[action]")]
 public class GameController  : ControllerBase
 {
-    [HttpPost("start")]
+    [HttpPost]
     public IActionResult StartGame()
     {
         try
@@ -15,9 +15,9 @@ public class GameController  : ControllerBase
             // Здесь будет логика запуска игры
             // Пока просто успешный ответ:
 
-            var response = new ApiResponse<object>(
+           var response = new ApiResponse<object>(
                 success: true,
-                message: "Все чики-пуки",
+                message: "NICE",
                 data: null
             );
             return Ok(response);
