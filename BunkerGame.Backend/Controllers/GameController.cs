@@ -1,6 +1,37 @@
+using BunkerGame.Backend.Responses;
+using Microsoft.AspNetCore.Mvc;
+
 namespace BunkerGame.Backend.Controllers;
 
-public class GameController 
+[ApiController]
+[Route("api/[controller]")]
+public class GameController  : ControllerBase
 {
-    
+    [HttpPost("start")]
+    public IActionResult StartGame()
+    {
+        try
+        {
+            // Здесь будет логика запуска игры
+            // Пока просто успешный ответ:
+
+            var response = new ApiResponse<object>(
+                success: true,
+                message: "Все чики-пуки",
+                data: null
+            );
+            return Ok(response);
+        }
+        catch (Exception ex)
+        {
+            // Если что-то пошло не так — вернем ошибку
+            var errorResponse = new ApiResponse<object>(
+                success: false,
+                message: $"Ошибка типа {ex.Message}",
+                data: null
+            );
+
+            return StatusCode(500, errorResponse);
+        }
+    }
 }
