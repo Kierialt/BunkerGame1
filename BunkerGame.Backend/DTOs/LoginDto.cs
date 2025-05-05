@@ -1,4 +1,3 @@
-using System;
 namespace BunkerGame.Backend.DTOs;
 
 public class LoginDto
