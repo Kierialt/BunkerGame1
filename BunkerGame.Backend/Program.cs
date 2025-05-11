@@ -27,7 +27,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseHttpsRedirection();// <--- должно быть
 
 var summaries = new[]
 {
@@ -46,10 +46,12 @@ app.MapGet("/weatherforecast", () =>
         .ToArray();
     return forecast;
 })
-    ///HIIIIIIIII
+    
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
+
+app.MapControllers();
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
