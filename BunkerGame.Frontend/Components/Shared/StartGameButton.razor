@@ -19,14 +19,14 @@
         transform: scale(1.05);
     }
 </style> *@
-<button class="button-postapocalyptic" @onclick="OnClick">
+@* <button class="button-postapocalyptic" @onclick="OnClick">
     Start New Game
 </button>
 
 @code {
     [Parameter]
     public EventCallback OnClick { get; set; }
-}
+} *@
 <button class="button-postapocalyptic" @onclick="StartNewGame">
     Start New Game
 </button>
@@ -60,7 +60,7 @@
         }
         catch (Exception ex)
         {
-            ResponseMessage = $"Ошибка при подключении к API: {ex.Message}";
+            ResponseMessage = $"Ошибка при подключении: {ex.Message}";
         }
     }
 
@@ -69,4 +69,5 @@
         public string GameId { get; set; }
     }
 }
+
 
