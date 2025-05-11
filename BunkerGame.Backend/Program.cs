@@ -50,6 +50,19 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5158")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+});
+
+app.UseCors("AllowFrontend");
+
 
 app.MapControllers();
 app.Run();
