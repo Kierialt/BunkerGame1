@@ -27,3 +27,46 @@
     [Parameter]
     public EventCallback OnClick { get; set; }
 }
+<button class="button-postapocalyptic" @onclick="StartNewGame">
+    Start New Game
+</button>
+
+@if (!string.IsNullOrEmpty(ResponseMessage))
+{
+    <p>@ResponseMessage</p>
+}
+
+@code {
+    [Inject]
+    private HttpClient Http { get; set; }
+
+    private string? ResponseMessage;
+
+    private async Task StartNewGame()
+    {
+        try
+        {
+            var response = await Http.PostAsync("http://localhost:5138/api/Game/start", null);
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadFromJsonAsync<GameStartResponse>();
+                ResponseMessage = $"Игра запущена! ID: {content?.GameId}";
+            }
+            else
+            {
+                var error = await response.Content.ReadAsStringAsync();
+                ResponseMessage = $"Ошибка: {error}";
+            }
+        }
+        catch (Exception ex)
+        {
+            ResponseMessage = $"Ошибка при подключении к API: {ex.Message}";
+        }
+    }
+
+    public class GameStartResponse
+    {
+        public string GameId { get; set; }
+    }
+}
+
