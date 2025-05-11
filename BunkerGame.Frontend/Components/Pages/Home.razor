@@ -24,23 +24,10 @@ Welcome to your new app. *@
         // Здесь позже будет переход на другой экран или вызов API
     }
 } *@
-
-@using BunkerGame.Frontend.Components
-
 @page "/"
+@using BunkerGame.Frontend.Components.Shared
 
 <h1 class="text-center mt-5 display-4">Bunker Game</h1>
-@* <div class="blood-drip" style="left: 45%; animation-delay: 0s;"></div>
-<div class="blood-drip" style="left: 50%; animation-delay: 1s;"></div>
-<div class="blood-drip" style="left: 55%; animation-delay: 2s;"></div>
-<div class="blood-drip" style="left: 60%; animation-delay: 3s;"></div>
-<div class="blood-drip" style="left: 65%; animation-delay: 4s;"></div>
-<div class="blood-drip" style="left: 70%; animation-delay: 5s;"></div>
-<div class="blood-drip" style="left: 75%; animation-delay: 6s;"></div>
-<div class="blood-drip" style="left: 80%; animation-delay: 7s;"></div>
-<div class="blood-drip" style="left: 85%; animation-delay: 8s;"></div>
-<div class="blood-drip" style="left: 90%; animation-delay: 9s;"></div>
-<div class="blood-drip" style="left: 95%; animation-delay: 10s;"></div> *@
 
 <div class="d-flex flex-column align-items-center mt-4">
     <StartGameButton />
@@ -51,9 +38,5 @@ Welcome to your new app. *@
     private void ShowRules()
     {
         Console.WriteLine("Displaying game rules!");
-        // Здесь будет логика для отображения правил игры
     }
 }
-
-
-

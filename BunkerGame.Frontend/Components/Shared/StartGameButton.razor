@@ -27,6 +27,8 @@
     [Parameter]
     public EventCallback OnClick { get; set; }
 } *@
+
+@namespace BunkerGame.Frontend.Components.Shared
 <button class="button-postapocalyptic" @onclick="StartNewGame">
     Start New Game
 </button>
@@ -38,12 +40,22 @@
 
 @code {
     [Inject]
-    private HttpClient Http { get; set; }
+    private HttpClient? Http { get; set; }
+
+    [Inject]
+    private NavigationManager Navigation { get; set; }
 
     private string? ResponseMessage;
 
     private async Task StartNewGame()
     {
+        // Проверка, если HttpClient не инициализирован
+        if (Http is null)
+        {
+            ResponseMessage = "Ошибка: HttpClient не инициализирован.";
+            return;
+        }
+
         try
         {
             var response = await Http.PostAsync("http://localhost:5138/api/Game/start", null);
@@ -51,6 +63,12 @@
             {
                 var content = await response.Content.ReadFromJsonAsync<GameStartResponse>();
                 ResponseMessage = $"Игра запущена! ID: {content?.GameId}";
+
+                // Переход на новую страницу с ID игры
+                if (content?.GameId != null)
+                {
+                    Navigation.NavigateTo($"/game/{content.GameId}");
+                }
             }
             else
             {
@@ -66,8 +84,6 @@
 
     public class GameStartResponse
     {
-        public string GameId { get; set; }
+        public string? GameId { get; set; }
     }
 }
-
-
