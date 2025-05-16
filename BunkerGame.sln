@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunkerGame.Backend", "BunkerGame.Backend\BunkerGame.Backend.csproj", "{5312CE33-AD24-4D5B-87F8-65768627D344}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunkerGame.Frontend", "BunkerGame.Frontend\BunkerGame.Frontend.csproj", "{A1AE627F-96A3-4CCF-AB6A-8FEBADF9AA9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{5312CE33-AD24-4D5B-87F8-65768627D344}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5312CE33-AD24-4D5B-87F8-65768627D344}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5312CE33-AD24-4D5B-87F8-65768627D344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1AE627F-96A3-4CCF-AB6A-8FEBADF9AA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AE627F-96A3-4CCF-AB6A-8FEBADF9AA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AE627F-96A3-4CCF-AB6A-8FEBADF9AA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AE627F-96A3-4CCF-AB6A-8FEBADF9AA9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

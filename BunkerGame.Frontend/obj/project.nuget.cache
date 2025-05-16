@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "FdrE5Phi8yM=",
+  "success": true,
+  "projectFilePath": "/Users/eugene/Desktop/Новая папка2/BunkerGame.Frontend/BunkerGame.Frontend.csproj",
+  "expectedPackageFiles": [
+    "/Users/eugene/.nuget/packages/microsoft.netcore.app.ref/8.0.14/microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
+    "/Users/eugene/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.14/microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512",
+    "/Users/eugene/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.14/microsoft.netcore.app.host.osx-x64.8.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
