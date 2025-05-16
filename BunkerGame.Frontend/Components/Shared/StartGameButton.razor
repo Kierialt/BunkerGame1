@@ -29,8 +29,8 @@
 } *@
 
 @namespace BunkerGame.Frontend.Components.Shared
-<button class="button-postapocalyptic" @onclick="StartNewGame">
-    Start New Game
+<button class="button-postapocalyptic" @onclick="() => {counter++; }">
+    Start New Game (@counter)
 </button>
 
 @if (!string.IsNullOrEmpty(ResponseMessage))
@@ -39,6 +39,7 @@
 }
 
 @code {
+    int counter = 0;
     [Inject]
     private HttpClient? Http { get; set; }
 
@@ -46,9 +47,13 @@
     private NavigationManager Navigation { get; set; }
 
     private string? ResponseMessage;
-
+    private void Test(){
+        counter++;
+    }
     private async Task StartNewGame()
     {
+        counter++;
+        // Отладка
         // Проверка, если HttpClient не инициализирован
         if (Http is null)
         {
@@ -58,7 +63,7 @@
 
         try
         {
-            var response = await Http.PostAsync("http://localhost:5138/api/Game/start", null);
+            var response = await Http.GetAsync("http://localhost:5138/api/Game/start");
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadFromJsonAsync<GameStartResponse>();

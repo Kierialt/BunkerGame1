@@ -1,4 +1,5 @@
 @page "/game"
+@using System.Diagnostics
 @inject HttpClient Http
 
 <h3>Добро пожаловать в Bunker Game</h3>
@@ -45,7 +46,8 @@ else
 
     private async Task StartGame()
     {
-        var response = await Http.GetAsync("api/game/start");
+        Debug.WriteLine("StartGame called");
+        var response = await Http.GetAsync("http://localhost:5138/api/game/start");
         if (response.IsSuccessStatusCode)
         {
             gameStarted = true;
