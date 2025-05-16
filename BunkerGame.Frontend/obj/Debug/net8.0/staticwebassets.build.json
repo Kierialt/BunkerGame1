@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mLhb8l80FxNz5GJ4YAq1gP91TZ29bkx/sNGcuWyP+yw=",
+  "Hash": "pzinPu8Gv7vesdkxnzkfKL3NL1/yBlCl9YyQsK6Obn4=",
   "Source": "BunkerGame.Frontend",
   "BasePath": "_content/BunkerGame.Frontend",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3xj97f41g0",
-      "Integrity": "F1CEIhhJmQNsNwe9r6v+yBTSj4m3aMaa1IZtONtnkj8=",
+      "Fingerprint": "oyef9ysm3o",
+      "Integrity": "gFXi6OqnTzzRgPNrBjk48PPvtSQ4pu9l94++Oo87nio=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1862t5h8rh",
-      "Integrity": "AQ1/o+NwFXse8z3muZDhSxcq58XDc8eMww+J25sd+tA=",
+      "Fingerprint": "uxipqg0spl",
+      "Integrity": "3jltPcGPui2kstPT4dsDWYUZgxOD/M3mf2mtV/T4SWU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\script.js"
@@ -73,59 +73,14 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6l90kb5peu",
-      "Integrity": "imCrytnzRZ9hksIkzOvx/h8eoRHy857MiC5QozEH6iE=",
+      "Fingerprint": "6hgcrdp0gu",
+      "Integrity": "lkJIjIxc2knE71AsQCqJ6m/G/vt7dm37aF2jCm2ywv8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\styles.css"
     }
   ],
   "Endpoints": [
-    {
-      "Route": "index.3xj97f41g0.html",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "466"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"F1CEIhhJmQNsNwe9r6v+yBTSj4m3aMaa1IZtONtnkj8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 16:04:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3xj97f41g0"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-F1CEIhhJmQNsNwe9r6v+yBTSj4m3aMaa1IZtONtnkj8="
-        }
-      ]
-    },
     {
       "Route": "index.html",
       "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\index.html",
@@ -137,7 +92,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "466"
+          "Value": "544"
         },
         {
           "Name": "Content-Type",
@@ -145,11 +100,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"F1CEIhhJmQNsNwe9r6v+yBTSj4m3aMaa1IZtONtnkj8=\""
+          "Value": "\"gFXi6OqnTzzRgPNrBjk48PPvtSQ4pu9l94++Oo87nio=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 16:04:23 GMT"
+          "Value": "Fri, 16 May 2025 16:25:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -159,13 +114,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-F1CEIhhJmQNsNwe9r6v+yBTSj4m3aMaa1IZtONtnkj8="
+          "Value": "sha256-gFXi6OqnTzzRgPNrBjk48PPvtSQ4pu9l94++Oo87nio="
         }
       ]
     },
     {
-      "Route": "script.1862t5h8rh.js",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\script.js",
+      "Route": "index.oyef9ysm3o.html",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -174,19 +129,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "866"
+          "Value": "544"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "text/html"
         },
         {
           "Name": "ETag",
-          "Value": "\"AQ1/o+NwFXse8z3muZDhSxcq58XDc8eMww+J25sd+tA=\""
+          "Value": "\"gFXi6OqnTzzRgPNrBjk48PPvtSQ4pu9l94++Oo87nio=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 15:50:45 GMT"
+          "Value": "Fri, 16 May 2025 16:25:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -196,15 +151,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1862t5h8rh"
+          "Value": "oyef9ysm3o"
         },
         {
           "Name": "label",
-          "Value": "script.js"
+          "Value": "index.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AQ1/o+NwFXse8z3muZDhSxcq58XDc8eMww+J25sd+tA="
+          "Value": "sha256-gFXi6OqnTzzRgPNrBjk48PPvtSQ4pu9l94++Oo87nio="
         }
       ]
     },
@@ -219,7 +174,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "866"
+          "Value": "676"
         },
         {
           "Name": "Content-Type",
@@ -227,11 +182,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AQ1/o+NwFXse8z3muZDhSxcq58XDc8eMww+J25sd+tA=\""
+          "Value": "\"3jltPcGPui2kstPT4dsDWYUZgxOD/M3mf2mtV/T4SWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 15:50:45 GMT"
+          "Value": "Fri, 16 May 2025 16:19:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -241,13 +196,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AQ1/o+NwFXse8z3muZDhSxcq58XDc8eMww+J25sd+tA="
+          "Value": "sha256-3jltPcGPui2kstPT4dsDWYUZgxOD/M3mf2mtV/T4SWU="
         }
       ]
     },
     {
-      "Route": "styles.6l90kb5peu.css",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\styles.css",
+      "Route": "script.uxipqg0spl.js",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -256,19 +211,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "864"
+          "Value": "676"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"imCrytnzRZ9hksIkzOvx/h8eoRHy857MiC5QozEH6iE=\""
+          "Value": "\"3jltPcGPui2kstPT4dsDWYUZgxOD/M3mf2mtV/T4SWU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:55:22 GMT"
+          "Value": "Fri, 16 May 2025 16:19:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -278,7 +233,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6l90kb5peu"
+          "Value": "uxipqg0spl"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3jltPcGPui2kstPT4dsDWYUZgxOD/M3mf2mtV/T4SWU="
+        }
+      ]
+    },
+    {
+      "Route": "styles.6hgcrdp0gu.css",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lkJIjIxc2knE71AsQCqJ6m/G/vt7dm37aF2jCm2ywv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 16:29:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6hgcrdp0gu"
         },
         {
           "Name": "label",
@@ -286,7 +286,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-imCrytnzRZ9hksIkzOvx/h8eoRHy857MiC5QozEH6iE="
+          "Value": "sha256-lkJIjIxc2knE71AsQCqJ6m/G/vt7dm37aF2jCm2ywv8="
         }
       ]
     },
@@ -301,7 +301,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "864"
+          "Value": "728"
         },
         {
           "Name": "Content-Type",
@@ -309,11 +309,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"imCrytnzRZ9hksIkzOvx/h8eoRHy857MiC5QozEH6iE=\""
+          "Value": "\"lkJIjIxc2knE71AsQCqJ6m/G/vt7dm37aF2jCm2ywv8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 14:55:22 GMT"
+          "Value": "Fri, 16 May 2025 16:29:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -323,7 +323,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-imCrytnzRZ9hksIkzOvx/h8eoRHy857MiC5QozEH6iE="
+          "Value": "sha256-lkJIjIxc2knE71AsQCqJ6m/G/vt7dm37aF2jCm2ywv8="
         }
       ]
     }

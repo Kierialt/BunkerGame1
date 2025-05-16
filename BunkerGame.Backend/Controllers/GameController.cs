@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace BunkerGame.Backend.Controllers;
 
 [ApiController]
-[Route("[controller]/[action]")]
-public class GameController  : ControllerBase
+[Route("api/[controller]/[action]")]
+public class GameController : ControllerBase
 {
     [HttpPost]
     public IActionResult StartGame()
