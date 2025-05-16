@@ -7,4 +7,3 @@ app.UseStaticFiles();
 
 app.Run();
 
-// app.MapPost("/api/game/start", () => Results.Ok("Игра началась!"));

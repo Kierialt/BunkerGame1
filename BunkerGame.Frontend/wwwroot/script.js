@@ -1,19 +1,19 @@
 document.getElementById("startGameBtn").addEventListener("click", async () => {
     try {
-        const response = await fetch("http://localhost:5138/api/Game/StartGame", { // <-- правильный порт!
+        const response = await fetch("http://localhost:5138/api/Game/StartGame", { // <-- correct api
             method: "POST"
         });
 
         if (response.ok) {
-            alert("Игра успешно запущена!");
+            alert("Game started successfully!");
         } else {
-            alert("Ошибка при запуске игры.");
+            alert("Error occured while starting the game.");
         }
     } catch (error) {
-        alert("Сервер недоступен.");
+        alert("Server is not available.");
     }
 });
 
 document.getElementById("rulesBtn").addEventListener("click", () => {
-    alert("Здесь будут правила игры.");
+    alert("There will be game rules here.");
 });
