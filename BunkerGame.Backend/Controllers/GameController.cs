@@ -7,7 +7,7 @@ namespace BunkerGame.Backend.Controllers;
 [Route("[controller]/[action]")]
 public class GameController  : ControllerBase
 {
-    [HttpGet]
+    [HttpPost]
     public IActionResult StartGame()
     {
         try
