@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../abandoned%20train.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding-top: 15vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #aa0000;
+}

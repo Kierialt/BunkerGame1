@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eugene/Desktop/Новая папка2/BunkerGame.Backend/BunkerGame.Backend.csproj": {}
+    "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Backend\\BunkerGame.Backend.csproj": {}
   },
   "projects": {
-    "/Users/eugene/Desktop/Новая папка2/BunkerGame.Backend/BunkerGame.Backend.csproj": {
+    "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Backend\\BunkerGame.Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eugene/Desktop/Новая папка2/BunkerGame.Backend/BunkerGame.Backend.csproj",
+        "projectUniqueName": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Backend\\BunkerGame.Backend.csproj",
         "projectName": "BunkerGame.Backend",
-        "projectPath": "/Users/eugene/Desktop/Новая папка2/BunkerGame.Backend/BunkerGame.Backend.csproj",
-        "packagesPath": "/Users/eugene/.nuget/packages/",
-        "outputPath": "/Users/eugene/Desktop/Новая папка2/BunkerGame.Backend/obj/",
+        "projectPath": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Backend\\BunkerGame.Backend.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/eugene/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -91,20 +96,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.14, 8.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[8.0.14, 8.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.14, 8.0.14]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -113,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

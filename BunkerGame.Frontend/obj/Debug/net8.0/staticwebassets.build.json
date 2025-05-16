@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "mLhb8l80FxNz5GJ4YAq1gP91TZ29bkx/sNGcuWyP+yw=",
+  "Source": "BunkerGame.Frontend",
+  "BasePath": "_content/BunkerGame.Frontend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BunkerGame.Frontend\\wwwroot",
+      "Source": "BunkerGame.Frontend",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\index.html",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3xj97f41g0",
+      "Integrity": "F1CEIhhJmQNsNwe9r6v+yBTSj4m3aMaa1IZtONtnkj8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\script.js",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1862t5h8rh",
+      "Integrity": "AQ1/o+NwFXse8z3muZDhSxcq58XDc8eMww+J25sd+tA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\styles.css",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6l90kb5peu",
+      "Integrity": "imCrytnzRZ9hksIkzOvx/h8eoRHy857MiC5QozEH6iE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.3xj97f41g0.html",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F1CEIhhJmQNsNwe9r6v+yBTSj4m3aMaa1IZtONtnkj8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 16:04:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3xj97f41g0"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F1CEIhhJmQNsNwe9r6v+yBTSj4m3aMaa1IZtONtnkj8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F1CEIhhJmQNsNwe9r6v+yBTSj4m3aMaa1IZtONtnkj8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 16:04:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F1CEIhhJmQNsNwe9r6v+yBTSj4m3aMaa1IZtONtnkj8="
+        }
+      ]
+    },
+    {
+      "Route": "script.1862t5h8rh.js",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AQ1/o+NwFXse8z3muZDhSxcq58XDc8eMww+J25sd+tA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 15:50:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1862t5h8rh"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AQ1/o+NwFXse8z3muZDhSxcq58XDc8eMww+J25sd+tA="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AQ1/o+NwFXse8z3muZDhSxcq58XDc8eMww+J25sd+tA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 15:50:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AQ1/o+NwFXse8z3muZDhSxcq58XDc8eMww+J25sd+tA="
+        }
+      ]
+    },
+    {
+      "Route": "styles.6l90kb5peu.css",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"imCrytnzRZ9hksIkzOvx/h8eoRHy857MiC5QozEH6iE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 14:55:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6l90kb5peu"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-imCrytnzRZ9hksIkzOvx/h8eoRHy857MiC5QozEH6iE="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"imCrytnzRZ9hksIkzOvx/h8eoRHy857MiC5QozEH6iE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 14:55:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-imCrytnzRZ9hksIkzOvx/h8eoRHy857MiC5QozEH6iE="
+        }
+      ]
+    }
+  ]
+}
