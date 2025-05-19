@@ -10,6 +10,10 @@ namespace BunkerGame.Backend.Data
         {
         }
 
+        public ApplicationDbContext()
+        {
+        }
+
         public DbSet<User> Users { get; set; } = null!;
     }
 }
