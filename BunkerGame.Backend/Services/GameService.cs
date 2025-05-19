@@ -46,7 +46,7 @@ public class GameService
             Profession = Professions[_random.Next(Professions.Length)],
             Age = _random.Next(18, 99),
             Gender = Genders[_random.Next(Genders.Length)],
-            Orientation = Orientations[_random.Next(Personalities.Length)],
+            Orientation = Orientations[_random.Next(Orientations.Length)],
             Health = Healthes[_random.Next(Healthes.Length)]
         };
     }
