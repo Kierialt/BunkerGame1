@@ -1,5 +1,9 @@
 body {
-    background-color: #121212;
+    background-image: url("/images/metro 0.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #8b0000;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -38,4 +42,56 @@ h1 {
 .message {
     margin-top: 20px;
     font-size: 1.2rem;
+}
+
+/* Добавь в конец файла styles.css */
+input[type="number"] {
+    padding: 8px;
+    font-size: 1rem;
+    width: 60px;
+    margin-right: 10px;
+}
+
+#confirmPlayersBtn {
+    padding: 8px 20px;
+    font-size: 1rem;
+    background-color: #2e2e2e;
+    color: #f0f0f0;
+    border: 2px solid #8b0000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#confirmPlayersBtn:hover {
+    background-color: #8b0000;
+}
+
+/* styles.css */
+
+.rules-list {
+    background: rgba(255,255,255,0.85);
+    border-radius: 10px;
+    padding: 24px 32px;
+    margin: 30px auto 0 auto;
+    max-width: 600px;
+    color: #222;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+#backBtn {
+    margin-top: 30px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #2e2e2e;
+    color: #f0f0f0;
+    border: 2px solid #8b0000;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#backBtn:hover {
+    background-color: #8b0000;
 }

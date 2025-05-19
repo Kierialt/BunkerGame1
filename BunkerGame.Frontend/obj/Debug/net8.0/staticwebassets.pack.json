@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 0.jpg",
+      "PackagePath": "staticwebassets\\images\\metro 0.jpg"
+    },
+    {
+      "Id": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 1.jpg",
+      "PackagePath": "staticwebassets\\images\\metro 1.jpg"
+    },
+    {
+      "Id": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 2.jpg",
+      "PackagePath": "staticwebassets\\images\\metro 2.jpg"
+    },
+    {
+      "Id": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 3.jpg",
+      "PackagePath": "staticwebassets\\images\\metro 3.jpg"
+    },
+    {
       "Id": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

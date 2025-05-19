@@ -1,19 +1,43 @@
+// document.getElementById("startGameBtn").addEventListener("click", async () => {
+//     try {
+//         const response = await fetch("http://localhost:5138/api/Game/StartGame", { // <-- correct api
+//             method: "POST"
+//         });
+
+//         if (response.ok) {
+//             alert("Game started successfully!");
+//         } else {
+//             alert("Error occurred while starting the game.");
+//         }
+//     } catch (error) {
+//         alert("Server is not available.");
+//     }
+// });
+
+// document.getElementById("rulesBtn").addEventListener("click", () => {
+//     alert("There will be game rules here.");
+// });
+
+
 document.getElementById("startGameBtn").addEventListener("click", async () => {
     try {
-        const response = await fetch("http://localhost:5138/api/Game/StartGame", { // <-- correct api
+        const response = await fetch("http://localhost:5138/api/Game/StartGame", {
             method: "POST"
         });
 
         if (response.ok) {
-            alert("Game started successfully!");
+            const data = await response.json();
+            alert(`success: ${data.success}\nmessage: ${data.message}`);
         } else {
-            alert("Error occured while starting the game.");
+            alert("Error occurred while starting the game.");
         }
     } catch (error) {
         alert("Server is not available.");
     }
 });
-
 document.getElementById("rulesBtn").addEventListener("click", () => {
-    alert("There will be game rules here.");
+    window.location.href = "rules.html";
 });
+// document.getElementById("rulesBtn").addEventListener("click", () => {
+//     alert("There will be game rules here.");
+// });
