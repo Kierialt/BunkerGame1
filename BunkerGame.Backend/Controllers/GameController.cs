@@ -1,5 +1,7 @@
 using BunkerGame.Backend.Responses;
 using Microsoft.AspNetCore.Mvc;
+using BunkerGame.Backend.Services;
+using BunkerGame.Backend.Models;
 
 namespace BunkerGame.Backend.Controllers;
 
@@ -7,6 +9,7 @@ namespace BunkerGame.Backend.Controllers;
 [Route("api/[controller]/[action]")]
 public class GameController : ControllerBase
 {
+    private readonly GameService _gameService = new(); // в будущем можно внедрить через DI
     [HttpPost]
     public IActionResult StartGame()
     {
@@ -14,12 +17,14 @@ public class GameController : ControllerBase
         {
             // Здесь будет логика запуска игры
             // Пока просто успешный ответ:
+            var player = _gameService.CreateRandomPlayer();
 
-           var response = new ApiResponse<object>(
+            var response = new ApiResponse<Player>(
                 success: true,
-                message: "NICE",
-                data: null
+                message: "Игрок успешно создан!",
+                data: player
             );
+           
             return Ok(response);
         }
         catch (Exception ex)
