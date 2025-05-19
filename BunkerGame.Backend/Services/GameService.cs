@@ -78,10 +78,10 @@ public class GameService
             Orientation = Orientations[_random.Next(Orientations.Length)],
             Health = Healthes[_random.Next(Healthes.Length)],
             Hobby = Hobbys[_random.Next(Hobbys.Length)],
-            Phobia = Phobias[_random.Next(Phobias.Length)],
-            Luggage = Luggaages[_random.Next(Luggaages.Length)],
-            AdditionalInformation = AdditionalInformations[_random.Next(AdditionalInformations.Length)],
-            BodyType = BodyTypes[_random.Next(BodyTypes.Length)],
+            //Phobia = Phobias[_random.Next(Phobias.Length)],
+            //Luggage = Luggaages[_random.Next(Luggaages.Length)],
+            //AdditionalInformation = AdditionalInformations[_random.Next(AdditionalInformations.Length)],
+            //BodyType = BodyTypes[_random.Next(BodyTypes.Length)],
             
             
         };
