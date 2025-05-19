@@ -9,7 +9,33 @@
     <div class="container">
         <h1>Your Character</h1>
         <div id="characterCard"></div>
-        <button onclick="window.location.href='index.html'">Bact to Home</button>
+        <button id="refreshBtn">Refresh</button>
+        <button id="backHomeBtn">Back to Home</button>
+        <button id="shareBtn">Share</button>
+    </div>
+    <div id="shareModal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>Share Character</h2>
+            <textarea id="shareText" readonly style="width:100%;height:120px;margin-bottom:16px;"></textarea>
+            <div class="share-links">
+                <a id="tgShare" target="_blank" title="Telegram">
+                    <img src="images/telegram.svg" alt="Telegram" class="share-icon">
+                </a>
+                <a id="waShare" target="_blank" title="WhatsApp">
+                    <img src="images/whatsapp.svg" alt="WhatsApp" class="share-icon">
+                </a>
+                <a id="igShare" target="_blank" title="Instagram">
+                    <img src="images/instagram.svg" alt="Instagram" class="share-icon">
+                </a>
+                <a id="fbShare" target="_blank" title="Facebook">
+                    <img src="images/facebook.svg" alt="Facebook" class="share-icon">
+                </a>
+                <button id="copyShare" title="Скопировать">
+                    <img src="images/copy.svg" alt="Copy" class="share-icon">
+                </button>
+            </div>
+        </div>
     </div>
     <script src="character.js"></script>
 </body>

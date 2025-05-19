@@ -27,7 +27,13 @@ document.getElementById("startGameBtn").addEventListener("click", async () => {
 
         if (response.ok) {
             const data = await response.json();
-            alert(`success: ${data.success}\nmessage: ${data.message}`);
+            // alert(`success: ${data.success}\nmessage: ${data.message}\ndata: ${data.data}`);
+
+            // Сохраняем данные персонажа в localStorage
+            localStorage.setItem("characterData", JSON.stringify(data.data));
+            // Переходим на страницу персонажа
+            window.location.href = "character.html";
+            
         } else {
             alert("Error occurred while starting the game.");
         }
