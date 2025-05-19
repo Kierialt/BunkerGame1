@@ -32,6 +32,7 @@ public class Player
     {
         "Heterosexual", "Homosexual", "Bisexual", "Asexual"
     };
+    
     private static readonly string[] Personalities =
     {
         "Лидер", "Интроверт", "Агрессор", "Дипломат", "Оптимист"
