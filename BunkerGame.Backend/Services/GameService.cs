@@ -35,7 +35,36 @@ public class GameService
         "Depression", "Insomnia", "Anxiety disorder", "Asthma", "Arthritis"
     };
 
+    private static readonly string[] Hobbys =
+    {
+        "Learning sign language", "Managing a personal budget in Excel", "Playing blindfold chess",
+        "Willingly volunteering for local clean-up events", "Reflashing old gadgets", "Collecting rare spices",
+        "Building LEGO sets without instructions", "Learning Braille", "Designing board games", 
+        "Spying on pigeons", "Comparing the taste of tap water from different sinks", "Studying body language", 
+        "Expanding emotional intelligence", "Reading scientific articles", "Big data analysis", "Big data analysis"
+        
+    };
 
+    private static readonly string[] Phobias =
+    {
+
+    };
+
+    private static readonly string[] Luggaages =
+    {
+
+    };
+
+    private static readonly string[] AdditionalInformations =
+    {
+
+    };
+
+    private static readonly string[] BodyTypes =
+    {
+
+    };
+    
     private readonly Random _random = new();
 
     public Player CreateRandomPlayer()
@@ -47,7 +76,14 @@ public class GameService
             Age = _random.Next(18, 99),
             Gender = Genders[_random.Next(Genders.Length)],
             Orientation = Orientations[_random.Next(Orientations.Length)],
-            Health = Healthes[_random.Next(Healthes.Length)]
+            Health = Healthes[_random.Next(Healthes.Length)],
+            Hobby = Hobbys[_random.Next(Hobbys.Length)],
+            Phobia = Phobias[_random.Next(Phobias.Length)],
+            Luggage = Luggaages[_random.Next(Luggaages.Length)],
+            AdditionalInformation = AdditionalInformations[_random.Next(AdditionalInformations.Length)],
+            BodyType = BodyTypes[_random.Next(BodyTypes.Length)],
+            
+            
         };
     }
 }
