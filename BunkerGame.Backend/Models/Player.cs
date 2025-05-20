@@ -25,6 +25,8 @@ public class Player
     
     public string Health { get; set; } = default!;
     
+    public string Personalitie { get; set; } = default!;
+    
     
 }
 
