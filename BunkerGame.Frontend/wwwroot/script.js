@@ -1,23 +1,6 @@
-// document.getElementById("startGameBtn").addEventListener("click", async () => {
-//     try {
-//         const response = await fetch("http://localhost:5138/api/Game/StartGame", { // <-- correct api
-//             method: "POST"
-//         });
-
-//         if (response.ok) {
-//             alert("Game started successfully!");
-//         } else {
-//             alert("Error occurred while starting the game.");
-//         }
-//     } catch (error) {
-//         alert("Server is not available.");
-//     }
-// });
-
-// document.getElementById("rulesBtn").addEventListener("click", () => {
-//     alert("There will be game rules here.");
-// });
-
+if (!localStorage.getItem('token')) {
+    window.location.href = "login.html";
+}
 
 document.getElementById("startGameBtn").addEventListener("click", async () => {
     try {
@@ -44,6 +27,8 @@ document.getElementById("startGameBtn").addEventListener("click", async () => {
 document.getElementById("rulesBtn").addEventListener("click", () => {
     window.location.href = "rules.html";
 });
-// document.getElementById("rulesBtn").addEventListener("click", () => {
-//     alert("There will be game rules here.");
-// });
+
+document.getElementById("logoutBtn").onclick = function() {
+    localStorage.removeItem('token');
+    window.location.href = "login.html";
+};

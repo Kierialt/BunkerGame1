@@ -18,20 +18,32 @@ async function loadCharacter() {
 }
 
 function showCharacter(data) {
+    const avatarSeed = data.name && data.name !== "???" ? data.name : Math.floor(Math.random() * 10000);
+    const avatarUrl = `https://api.dicebear.com/7.x/adventurer/svg?seed=${encodeURIComponent(avatarSeed)}`;
+
     document.getElementById("characterCard").innerHTML = `
-        <div class="character-card">
-            <h2>Dossier</h2>
-            <p><strong>Profession:</strong> ${data.profession}</p>
-            <p><strong>Gender:</strong> ${data.gender}</p>
-            <p><strong>Age:</strong> ${data.age}</p>
-            <p><strong>Orientation:</strong> ${data.orientation}</p>
-            <p><strong>Name:</strong> ${data.name ?? "???"}</p>
-            <p><strong>Health:</strong> ${data.health}</p>
-            <p><strong>Hobby:</strong> ${data.hobby}</p>
-            <p><strong>Phobia:</strong> ${data.phobia}</p>
-            <p><strong>Luggage:</strong> ${data.luggage}</p>
-            <p><strong>Additional Information:</strong> ${data.additionalInformation}</p>
-            <p><strong>Body Type:</strong> ${data.bodyType}</p>
+        <div class="character-card dossier-layout">
+            <div class="dossier-info">
+                <h2>Dossier</h2>
+                <p><strong>Profession:</strong> ${data.profession}</p>
+                <p><strong>Gender:</strong> ${data.gender}</p>
+                <p><strong>Age:</strong> ${data.age}</p>
+                <p><strong>Orientation:</strong> ${data.orientation}</p>
+                <p><strong>Name:</strong> ${data.name ?? "???"}</p>
+                <p><strong>Health:</strong> ${data.health}</p>
+                <p><strong>Hobby:</strong> ${data.hobby}</p>
+                <p><strong>Phobia:</strong> ${data.phobia}</p>
+                <p><strong>Luggage:</strong> ${data.luggage}</p>
+                <p><strong>Additional Information:</strong> ${data.additionalInformation}</p>
+                <p><strong>Body Type:</strong> ${data.bodyType}</p>
+                <div class="stamp">CONFIDENTIAL</div>
+                <div class="signature">Signature: ____________</div>
+            </div>
+            <div class="dossier-avatar">
+                <div class="avatar-frame">
+                    <img src="${avatarUrl}" alt="Avatar" class="avatar-img">
+                </div>
+            </div>
         </div>
     `;
 }
