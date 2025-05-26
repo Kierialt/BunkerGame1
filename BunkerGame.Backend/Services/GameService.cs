@@ -74,7 +74,7 @@ public class GameService
         "Insect Sting Allergy – allergy to bee, wasp, or hornet stings",
         "Latex Allergy – reaction to natural rubber latex", 
         "Drug Allergy – e.g., Penicillin Allergy, Aspirin Sensitivity", 
-        "Nickel Allergy – contact allergy to nickel in jewelry, etc."
+        "Nickel Allergy – contact allergy to nickel in jewelry, etc.", "Missing hand"
         
     };
 
