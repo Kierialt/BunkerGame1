@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowFrontend",
+    options.AddPolicy("AllowAll",
         policy =>
         {
             policy.WithOrigins("http://localhost:5198")
@@ -24,7 +24,7 @@ builder.Services.AddControllers();
 
 // Регистрируем ApplicationDbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Регистрируем сервис авторизации
 builder.Services.AddScoped<IAuthService, AuthService>();
@@ -39,7 +39,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();// <--- должно быть
+app.UseHttpsRedirection();
 
 var summaries = new[]
 {
@@ -63,7 +63,7 @@ app.MapGet("/weatherforecast", () =>
 .WithOpenApi();
 
 
-app.UseCors("AllowFrontend");
+app.UseCors("AllowAll");
 
 
 app.MapControllers();
