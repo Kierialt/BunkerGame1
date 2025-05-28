@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('registerMessage').textContent = 'Server error';
         }
     };
+    // bla bla bla
 
     // Update user panel (login button or nickname)
     function updateUserPanel() {
