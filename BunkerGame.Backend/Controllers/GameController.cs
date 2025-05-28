@@ -15,8 +15,7 @@ public class GameController : ControllerBase
     {
         try
         {
-            // Здесь будет логика запуска игры
-            // Пока просто успешный ответ:
+            
             var player = _gameService.CreateRandomPlayer();
 
             var response = new ApiResponse<Player>(

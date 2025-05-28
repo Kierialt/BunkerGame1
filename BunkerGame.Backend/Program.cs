@@ -2,6 +2,7 @@ using BunkerGame.Backend.Services;
 using BunkerGame.Backend.Data;
 using Microsoft.EntityFrameworkCore;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(options =>
@@ -22,12 +23,21 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
-// Регистрируем ApplicationDbContext
+
+// Получаем строку подключения из переменной среды или из appsettings.json
+var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION") 
+                       ?? builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Настраиваем контекст
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite(connectionString));
+
 
 // Регистрируем сервис авторизации
 builder.Services.AddScoped<IAuthService, AuthService>();
+
+//Регистрация сервиса бэкапа
+builder.Services.AddHostedService<BackupService>();
 
 
 var app = builder.Build();
