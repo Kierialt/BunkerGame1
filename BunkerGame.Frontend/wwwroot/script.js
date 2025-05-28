@@ -47,12 +47,11 @@ document.addEventListener('DOMContentLoaded', function() {
             const response = await fetch('http://localhost:5138/Auth/Login', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ email, password })
+                body: JSON.stringify({ email, password, nickname })
             });
 
             if (response.ok) {
-                const data = await response.json();
-                localStorage.setItem('token', data.email);
+                localStorage.setItem('token', 'dummy-token');
                 localStorage.setItem('nickname', nickname);
                 closeModals();
                 updateUserPanel();
@@ -69,18 +68,17 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         const email = document.getElementById('registerEmail').value;
         const password = document.getElementById('registerPassword').value;
-        // const nickname = document.getElementById('registerNickname').value;
+        const nickname = document.getElementById('registerNickname').value;
 
         try {
             const response = await fetch('http://localhost:5138/Auth/Register', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ email, password }) // <-- Only email and password
+                body: JSON.stringify({ email, password, nickname })
             });
 
             if (response.ok) {
-                // Registration successful
-                // localStorage.setItem('nickname', nickname);
+                localStorage.setItem('nickname', nickname);
                 closeModals();
                 updateUserPanel();
             } else {
