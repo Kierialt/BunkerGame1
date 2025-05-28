@@ -1,9 +1,11 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace BunkerGame.Backend.Models;
 
 public class User
 {
+    
     public int Id { get; set; }
     [Required]
     [MaxLength(255)] // Ограничение длины строки
@@ -13,3 +15,4 @@ public class User
     public byte[] PasswordSalt { get; set; } = null!;
     
 }
+
