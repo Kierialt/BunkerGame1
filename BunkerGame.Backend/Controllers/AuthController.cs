@@ -5,7 +5,6 @@ using BunkerGame.Backend.Services;
 namespace BunkerGame.Backend.Controllers;
 
 
-
 [ApiController]
 [Route("[controller]/[action]")]
 public class AuthController: ControllerBase
