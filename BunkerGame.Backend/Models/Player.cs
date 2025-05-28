@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+
 namespace BunkerGame.Backend.Models;
 
 public class Player
 {
+    [Key]  
+    public int Id { get; set; }
+
     public string Profession { get; set; } = default!; 
     
      public string Gender { get; set; } = default!;
@@ -27,6 +33,6 @@ public class Player
     
     public string Personalitie { get; set; } = default!;
     
-    
 }
+
 
