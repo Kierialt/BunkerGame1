@@ -7,14 +7,52 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+    <div id="userPanel" class="user-panel">
+        <button id="loginBtn" class="login-top-btn">Login</button>
+        <!-- After login, nickname will appear here -->
+        <div id="userDropdown" class="user-dropdown" style="display:none;">
+            <button id="logoutBtn">Logout</button>
+        </div>
+    </div>
     <div class="container">
         <h1>BUNKER GAME</h1>
-
         <div class="buttons">
             <button id="startGameBtn">Start Game</button>
             <button id="rulesBtn">Show Rules</button>
-            <button id="logoutBtn">Logout</button>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal" style="display:none;">
+        <div class="modal-content auth-modal">
+            <span class="close" id="closeLoginModal">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" id="loginNickname" placeholder="Nickname" required><br>
+                <input type="email" id="loginEmail" placeholder="Email" required><br>
+                <input type="password" id="loginPassword" placeholder="Password" required><br>
+                <button type="submit">Login</button>
+            </form>
+            <p style="margin:10px 0 0 0;">No account? <a href="#" id="showRegister">Register now</a></p>
+            <div style="margin-top:8px; color:#888; font-size:0.95em;">You can play Bunker as a guest without registration.</div>
+            <div id="loginMessage"></div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="registerModal" class="modal" style="display:none;">
+        <div class="modal-content auth-modal">
+            <span class="close" id="closeRegisterModal">&times;</span>
+            <h2>Register</h2>
+            <form id="registerForm">
+                <input type="text" id="registerNickname" placeholder="Nickname" required><br>
+                <input type="email" id="registerEmail" placeholder="Email" required><br>
+                <input type="password" id="registerPassword" placeholder="Password" required><br>
+                <button type="submit">Register</button>
+            </form>
+            <p style="margin:10px 0 0 0;">Already have an account? <a href="#" id="showLogin">Login</a></p>
+            <div style="margin-top:8px; color:#888; font-size:0.95em;">You can play Bunker as a guest without registration.</div>
+            <div id="registerMessage"></div>
         </div>
     </div>
 
