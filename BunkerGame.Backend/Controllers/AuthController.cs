@@ -15,7 +15,8 @@ public class AuthController: ControllerBase
     {
         _authService = authService;
     }
-
+   
+    
     [HttpPost]
     public async Task<IActionResult> Register(RegisterDto request)
     {
@@ -28,6 +29,7 @@ public class AuthController: ControllerBase
     [HttpPost]
     public async Task<IActionResult> Login(LoginDto request)
     {
+        //TODO in case when wrong nickname input
         var result = await _authService.LoginAsync(request);
         if (result == null)
             return Unauthorized("Invalid Email or Password.");
