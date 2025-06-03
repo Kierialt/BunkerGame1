@@ -5,18 +5,30 @@
     <title>Your Character</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="character-page">
     <div class="container">
-        <h1>Your Character</h1>
-        <div id="characterCard"></div>
-        <button id="refreshBtn">Refresh</button>
-        <button id="backHomeBtn">Back to Home</button>
-        <button id="shareBtn">Share</button>
+        <h1 class="character-heading">Your Character</h1>
+        <div class="flip-card-container">
+            <div class="flip-card" id="flipCard">
+                <div class="flip-card-front">
+                    <div id="characterCard"></div>
+                </div>
+                <div class="flip-card-back">
+                    <span class="lock-icon">&#128274;</span>
+                    <span class="top-secret-stamp">TOP SECRET</span>
+                </div>
+            </div>
+        </div>
+        <div class="character-buttons">
+            <button id="refreshBtn">Refresh</button>
+            <button id="backHomeBtn">Back to Home</button>
+            <button id="shareBtn">Share</button>
+        </div>
     </div>
-    <div id="shareModal" class="modal" style="display:none;">
-        <div class="modal-content">
+    <div id="shareModal" class="modal no-noise" style="display:none;">
+        <div class="modal-content auth-modal">
             <span id="closeModal" class="close">&times;</span>
-            <h2>Share Character</h2>
+            <h2 class="modal-title">Share Character</h2>
             <textarea id="shareText" readonly style="width:100%;height:120px;margin-bottom:16px;"></textarea>
             <div class="share-links">
                 <a id="tgShare" target="_blank" title="Telegram">
