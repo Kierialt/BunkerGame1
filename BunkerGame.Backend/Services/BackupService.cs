@@ -5,16 +5,26 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Configuration;
+using System.IO;
 
-public class BackupService : BackgroundService
+
+public class BackupService: BackgroundService
 {
     private readonly BackupCreator _backupCreator;
     private readonly TimeSpan _interval = TimeSpan.FromDays(1); // запуск раз в сутки
 
-    public BackupService()
+    public BackupService(IConfiguration configuration)
     {
-        string dbPath = "/Users/eugene/DataGripProjects/BunkerGameDb";  // путь к базе
-        string backupDir = Path.Combine(AppContext.BaseDirectory, "Backup");  // папка Backup
+        // Читаем относительный путь из appsettings.json
+        string dbRelativePath = configuration.GetValue<string>("DbPath");
+
+        // Преобразуем в абсолютный путь (относительно папки проекта)
+        string dbPath = Path.Combine(AppContext.BaseDirectory, dbRelativePath);
+
+        // Путь к папке для бэкапов
+        string backupDir = Path.Combine(AppContext.BaseDirectory, "Backup");
+
         _backupCreator = new BackupCreator(dbPath, backupDir);
     }
 
