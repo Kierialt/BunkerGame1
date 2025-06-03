@@ -9,8 +9,8 @@ namespace BunkerGame.Backend.Data;
             : base(options)
         {
         }
-        
 
+        
         public DbSet<User> Users { get; set; } = null!;
         public DbSet<Player> Players { get; set; } = null!;
         
