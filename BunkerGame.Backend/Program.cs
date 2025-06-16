@@ -23,9 +23,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
+builder.Services.AddScoped<GameService>();
+builder.Services.AddScoped<RoomService>();
+
 
 // Получаем строку подключения из переменной среды или из appsettings.Production/Development.json
-string dbPath = Path.Combine(AppContext.BaseDirectory, builder.Configuration.GetValue<string>("DbPath"));
+string dbPath = Path.Combine(AppContext.BaseDirectory, builder.Configuration.GetValue<string>("DbPath") ?? throw new InvalidOperationException());
 string connectionString = $"Data Source={dbPath}";
 
 // Настраиваем контекст
