@@ -14,7 +14,7 @@ function setFlipCardHeight() {
 }
 
 async function loadCharacter() {
-    // Пробуем получить нового персонажа с бэкенда
+    // Trying to get a new character from the backend
     try {
         const response = await fetch("http://localhost:5138/api/Game/StartGame", {
             method: "POST"
@@ -22,7 +22,7 @@ async function loadCharacter() {
         if (response.ok) {
             const data = await response.json();
             showCharacter(data.data);
-            // Сохраняем нового персонажа в localStorage (по желанию)
+            // save new character to localStorage
             localStorage.setItem("characterData", JSON.stringify(data.data));
             setFlipCardHeight();
         } else {
@@ -65,19 +65,47 @@ function showCharacter(data) {
     setFlipCardHeight();
 }
 
+async function loadStory() {
+    // check if there is a saved story
+    const savedStory = localStorage.getItem("apocalypseStory");
+    if (savedStory) {
+        document.getElementById("storyContent").innerHTML = savedStory;
+        return;
+    }
+
+    // Если истории нет, загружаем новую
+    try {
+        const response = await fetch("http://localhost:5138/api/Game/RandomStory", {
+            method: "GET"
+        });
+        if (response.ok) {
+            const data = await response.json();
+            // Убираем эмодзи и обернем текст в теги strong для жирного шрифта
+            const storyHtml = `<strong>${data.data.replace(/[\u{1F300}-\u{1F9FF}]/gu, '').replace(/\n/g, '<br>')}</strong>`;
+            document.getElementById("storyContent").innerHTML = storyHtml;
+            localStorage.setItem("apocalypseStory", storyHtml);
+        } else {
+            document.getElementById("storyContent").innerHTML = "<p>Ошибка при загрузке истории.</p>";
+        }
+    } catch {
+        document.getElementById("storyContent").innerHTML = "<p>Сервер недоступен.</p>";
+    }
+}
+
 window.onload = function() {
     // Start with card face down (back side visible)
     let isFlipped = false;
     const flipCard = document.getElementById("flipCard");
     flipCard.classList.remove("flipped"); // Ensure it's face down
 
-    // Load character
+    // Load character and story
     const data = JSON.parse(localStorage.getItem("characterData"));
     if (data) {
         showCharacter(data);
     } else {
         loadCharacter();
     }
+    loadStory();
 
     // Flip logic
     flipCard.onclick = function() {
@@ -98,6 +126,8 @@ window.onload = function() {
     };
 
     document.getElementById("backHomeBtn").onclick = function() {
+        // clear story when returning to the main page
+        localStorage.removeItem("apocalypseStory");
         window.location.href = "index.html";
     };
 

@@ -28,12 +28,17 @@ body.character-page .container {
     margin-bottom: 8px;
     margin-top: 0;
     font-size: 2.2rem;
+    color: #8b0000;
+    font-family: 'Share Tech Mono', 'Special Elite', monospace;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    letter-spacing: 2px;
 }
 
 h1 {
     font-size: 3rem;
     margin-bottom: 40px;
     color: #8b0000;
+    font-family: 'Share Tech Mono', 'Special Elite', monospace;
 }
 
 .buttons button {
@@ -58,31 +63,100 @@ h1 {
     font-size: 1.2rem;
 }
 
-.rules-list {
-    background: rgba(255, 255, 230, 0.93);
-    border: 2px solid #bfa76f;
-    border-radius: 12px;
-    box-shadow: 0 8px 32px rgba(60,40,10,0.25), 0 0 0 8px rgba(191,167,111,0.08) inset;
-    padding: 32px 40px;
+.rules-container {
+    background: repeating-linear-gradient(135deg, #a79466, #a79466 20px, #a79466 22px, #a79466 40px),
+                url("images/asfalt-light.png");
+    background-blend-mode: multiply;
+    background-size: cover, 300px 300px;
+    border: 2px solid #58410c;
+    border-radius: 18px 18px 32px 18px/18px 32px 18px 18px;
+    box-shadow: 0 4px 16px rgba(60,40,10,0.15), 0 0 0 4px rgba(191,167,111,0.05) inset;
+    padding: 24px 32px;
     max-width: 600px;
-    margin: 40px auto 20px auto;
+    margin: 8px auto 20px auto;
     color: #2e2e2e;
-    font-size: 1.1rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-family: 'Share Tech Mono', 'Special Elite', monospace;
     text-align: left;
     position: relative;
 }
 
-.rules-list-title {
-    font-family: 'Georgia', serif;
+.rules-container:before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; width: 100%; height: 100%;
+    background: repeating-linear-gradient(135deg, rgba(191,167,111,0.06) 0 2px, transparent 2px 8px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.rules-section {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(139,0,0,0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.rules-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.rules-section h2 {
     color: #8b0000;
-    margin-bottom: 18px;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    font-family: 'Share Tech Mono', 'Special Elite', monospace;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+.rules-section p {
+    margin: 0;
+    line-height: 1.1;
+    color: #2e2e2e;
+    font-family: 'Share Tech Mono', 'Special Elite', monospace;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.rules-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.rules-section ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.rules-section ul li:before {
+    content: "•";
+    color: #8b0000;
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+}
+
+.rules-list-title {
+    font-family: 'Share Tech Mono', 'Special Elite', monospace;
+    color: #8b0000;
+    margin-bottom: 0;
     letter-spacing: 2px;
     text-align: center;
+    font-size: 2.2rem;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    font-weight: bold;
 }
 
 #backBtn {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 10px 30px;
     font-size: 1rem;
     background-color: #2e2e2e;
@@ -95,6 +169,46 @@ h1 {
 
 #backBtn:hover {
     background-color: #8b0000;
+    transform: scale(1.05);
+}
+
+.stamp {
+    position: absolute;
+    top: 18px;
+    right: -30px;
+    transform: rotate(-18deg);
+    background: rgba(139,0,0,0.08);
+    color: #8b0000;
+    font-family: 'Special Elite', 'Georgia', serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 2px solid #8b0000;
+    border-radius: 8px;
+    padding: 8px 24px;
+    letter-spacing: 3px;
+    opacity: 0.85;
+    pointer-events: none;
+    z-index: 2;
+    box-shadow: 0 2px 8px rgba(139,0,0,0.12);
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.3);
+}
+
+.stamp:before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border: 1px solid rgba(139,0,0,0.2);
+    border-radius: 10px;
+    background: repeating-linear-gradient(45deg, 
+        transparent, 
+        transparent 2px, 
+        rgba(139,0,0,0.1) 2px, 
+        rgba(139,0,0,0.1) 4px
+    );
+    z-index: -1;
 }
 
 .avatar-frame {
@@ -108,31 +222,12 @@ h1 {
     overflow: hidden;
     position: relative;
 }
+
 .avatar-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
-}
-
-.stamp {
-    position: absolute;
-    top: 18px;
-    right: -30px;
-    transform: rotate(-18deg);
-    background: rgba(139,0,0,0.12);
-    color: #8b0000;
-    font-family: 'Georgia', serif;
-    font-size: 1.3rem;
-    font-weight: bold;
-    border: 2px solid #8b0000;
-    border-radius: 8px;
-    padding: 6px 22px;
-    letter-spacing: 2px;
-    opacity: 0.7;
-    pointer-events: none;
-    z-index: 2;
-    box-shadow: 0 2px 8px rgba(139,0,0,0.08);
 }
 
 .signature {
@@ -145,25 +240,18 @@ h1 {
 }
 
 .character-card {
-    background: 
-        repeating-linear-gradient(135deg, #a79466, #a79466 20px, #a79466 22px, #a79466 40px),
-        url("images/asfalt-light.png");
+    background: repeating-linear-gradient(135deg, #a79466, #a79466 20px, #a79466 22px, #a79466 40px),
+                url("images/asfalt-light.png");
     background-blend-mode: multiply;
     background-size: cover, 300px 300px;
     border: 2px solid #58410c;
     border-radius: 18px 18px 32px 18px/18px 32px 18px 18px;
     box-shadow: 0 8px 32px rgba(60,40,10,0.25), 0 0 0 8px rgba(191,167,111,0.08) inset;
     padding: 24px 28px 18px 28px;
-    width: 600px;           /* фиксированная ширина */
     min-height: 260px;
-    /* max-height: 420px;      фиксированная высота */
-    /* overflow-y: auto;       скролл только если очень много текста */
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace !important;
     color: #2e2e2e;
     position: relative;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
 }
 
 .character-card:before {
@@ -188,25 +276,24 @@ h1 {
     transform: rotate(8deg);
 }
 
-/* #refreshBtn,
-#backHomeBtn {
-    margin: 10px 10px 0 0;
-    padding: 10px 28px;
+.character-card p, .story-card p, #storyContent {
+    margin: 4px 0 2px 0;
+    line-height: 1.15;
     font-size: 1rem;
-    background-color: #bfa76f;
-    color: #222;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    box-shadow: 0 2px 8px rgba(60,40,10,0.08);
-    transition: background 0.2s;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+    font-family: 'Courier New', Courier, monospace !important;
+    color: #2e2e2e;
 }
 
-#refreshBtn:hover,
-#backHomeBtn:hover {
-    background-color: #8b0000;
-    color: #fff;
-} */
+.character-card h2, .story-card h2 {
+    color: #8b0000;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace !important;
+}
 
 #refreshBtn,
 #backHomeBtn,
@@ -407,15 +494,19 @@ h1 {
     flex: 2 1 0;
     min-width: 0;
     padding-right: 18px;
-    word-break: break-word;      /* перенос длинных слов */
-    white-space: normal;         /* перенос строк */
+    word-break: break-word;      /* hyphenation of long words */
+    white-space: normal;         /* line breaks */
 }
 
 .dossier-info p {
-    margin: 4px 0 2px 0;        /* компактные отступы между строками */
-    line-height: 1.15;          /* уменьшенное расстояние между строками */
+    margin: 4px 0 2px 0;
+    line-height: 1.15;
     font-size: 1rem;
-    overflow-wrap: break-word;   /* перенос слов */
+    overflow-wrap: break-word;
+    white-space: normal;
+    font-family: 'Courier New', Courier, monospace !important;
+    color: #2e2e2e;
+    font-weight: bold;
 }
 
 .dossier-info strong {
@@ -438,7 +529,7 @@ h1 {
     scrollbar-color: #bfa76f #fffbe8;
 }
 
-/* Для Chrome, Edge, Safari */
+/* For Chrome, Edge, Safari */
 .character-card::-webkit-scrollbar {
     width: 8px;
     background: transparent;
@@ -612,7 +703,7 @@ h1 {
     transform: rotateY(0deg); /* Flip to show front */
 }
 
-body, .container, h1, h2, h3, h4, h5, h6, p, button, input, label, .character-card, .rules-list, .rules-list-title, .user-nickname-btn, .login-top-btn, .user-dropdown, .modal, .modal-content, .modal-title, .modal-btn, .modal-switch, .modal-hint, .modal-message {
+body, .container, h1, h2, h3, h4, h5, h6, p, button, input, label, .rules-list, .rules-list-title, .user-nickname-btn, .login-top-btn, .user-dropdown, .modal, .modal-content, .modal-title, .modal-btn, .modal-switch, .modal-hint, .modal-message {
     font-family: 'Share Tech Mono', 'Special Elite', monospace !important;
 }
 
@@ -629,4 +720,135 @@ body, .container, h1, h2, h3, h4, h5, h6, p, button, input, label, .character-ca
     padding: 24px 28px 18px 28px;
     max-width: 300px;
     width: 92vw;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 18px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.story-card-container {
+    width: 600px;
+    perspective: 1200px;
+}
+
+.story-card {
+    background: repeating-linear-gradient(135deg, #a79466, #a79466 20px, #a79466 22px, #a79466 40px),
+                url("images/asfalt-light.png");
+    background-blend-mode: multiply;
+    background-size: cover, 300px 300px;
+    border: 2px solid #58410c;
+    border-radius: 18px 18px 32px 18px/18px 32px 18px 18px;
+    box-shadow: 0 8px 32px rgba(60,40,10,0.25), 0 0 0 8px rgba(191,167,111,0.08) inset;
+    padding: 24px 28px 18px 28px;
+    width: 600px;
+    min-height: 260px;
+    font-family: 'Courier New', Courier, monospace !important;
+    color: #2e2e2e;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.story-card h2 {
+    color: #8b0000;
+    margin: 0 auto 16px auto;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-weight: bold;
+    width: 100%;
+}
+
+#storyContent {
+    margin: 4px 0 2px 0;
+    line-height: 1.15;
+    font-size: 1.8 rem;
+    overflow-wrap: break-word;
+    white-space: pre-line;
+    font-family: 'Courier New', Courier, monospace !important;
+    color: #2e2e2e;
+    font-weight: bold;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .story-card-container {
+        width: 98vw;
+        max-width: 600px;
+    }
+}
+
+.dossier-info h2 {
+    color: #8b0000;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-weight: bold;
+}
+
+@keyframes loading-fade {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes loading-rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.loading-overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #8b0000;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: loading-rotate 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+.loading-text {
+    color: #8b0000;
+    font-family: 'Share Tech Mono', 'Special Elite', monospace;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    animation: loading-fade 1.5s infinite;
+    text-shadow: 0 0 5px #8b0000;
 }

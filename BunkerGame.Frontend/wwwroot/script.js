@@ -1,4 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // show loading overlay while starting the game
+    const loadingOverlay = document.querySelector('.loading-overlay');
+    loadingOverlay.classList.add('active');
+
+    // hide loading overlay after 2 seconds
+    setTimeout(() => {
+        loadingOverlay.classList.remove('active');
+    }, 2000);
+
     // --- LOGIN/REGISTER/USERPANEL LOGIC ---
     function showLoginModal() {
         document.getElementById('loginModal').style.display = 'flex';
@@ -133,6 +142,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // --- START GAME AND RULES BUTTONS ---
     document.getElementById("startGameBtn").addEventListener("click", async () => {
+        // Показываем загрузку
+        loadingOverlay.classList.add('active');
+        
         try {
             const response = await fetch("http://localhost:5138/api/Game/StartGame", {
                 method: "POST",
@@ -146,9 +158,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 localStorage.setItem("characterData", JSON.stringify(data.data));
                 window.location.href = "character.html";
             } else {
+                loadingOverlay.classList.remove('active');
                 alert("Error occurred while starting the game.");
             }
         } catch (error) {
+            loadingOverlay.classList.remove('active');
             alert("Server is not available.");
         }
     });
