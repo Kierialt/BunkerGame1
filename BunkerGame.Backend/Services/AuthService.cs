@@ -47,8 +47,8 @@ public class AuthService : IAuthService
             return null;
         
         //TODO!!!!
-        //var nick = (Encoding.UTF8.GetBytes(request.Nickname));
-        
+        var nick = (Encoding.UTF8.GetBytes(request.Nickname ?? throw new InvalidOperationException()));
+        if (nick == null) return null; 
         // Пока что без JWT, просто вернем Email
         return (user.Email, user.Nickname); 
         
