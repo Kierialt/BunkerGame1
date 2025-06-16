@@ -3,19 +3,28 @@ using Microsoft.AspNetCore.Mvc;
 using BunkerGame.Backend.Services;
 using BunkerGame.Backend.Models;
 
+
 namespace BunkerGame.Backend.Controllers;
 
 [ApiController]
 [Route("api/[controller]/[action]")]
 public class GameController : ControllerBase
 {
-    private readonly GameService _gameService = new(); // в будущем можно внедрить через DI
+    public GameController(GameService gameService, RoomService roomService)
+    {
+        _gameService = gameService;
+        _roomService = roomService;
+    }
+
+    
+   private readonly GameService _gameService;
+
     [HttpPost]
     public IActionResult StartGame()
     {
         try
         {
-            
+
             var player = _gameService.CreateRandomPlayer();
 
             var response = new ApiResponse<Player>(
@@ -23,7 +32,7 @@ public class GameController : ControllerBase
                 message: "Игрок успешно создан!",
                 data: player
             );
-           
+
             return Ok(response);
         }
         catch (Exception ex)
@@ -38,4 +47,25 @@ public class GameController : ControllerBase
             return StatusCode(500, errorResponse);
         }
     }
-}
+
+
+
+
+        private readonly RoomService _roomService;
+    
+        [HttpGet]
+        public IActionResult RandomStory()
+        {
+            try
+            {
+                var story = _roomService.CreateRandomStory();
+                var response = new ApiResponse<string>(true, "Сюжет успешно создан", story);
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                var error = new ApiResponse<object>(false, $"Ошибка: {ex.Message}");
+                return StatusCode(500, error);
+            }
+        }
+    }

@@ -123,7 +123,32 @@ public class GameService
 
     private static readonly string[] Luggaages =
     {
-
+        "Machete", "First aid kit", "Canned food, Water purification tablets", "Generator", "Flashlight", "Shotgun", 
+        "Seeds for planting", "Batteries", "Manual radio", "Firestarter kit", "Set of durable clothes", "Painkillers",
+        "Hand-crank blender", "Notebook and pen", "Manual on zombie survival", "Rope", "Antibiotics", "Military boots",
+        "Solar charger", "EMF detector", "Anti-telepathy helmet", "Digital telescope", "Energy bars", "Radiation suit",
+        "Translation device", "Laser pointer", "Tinfoil sheets", "Lead-lined safe", "Electromagnetic pulse device",
+        "Alien biology handbook", "Stealth cloak", "Binoculars", "Power converter", "Camouflage clothes",
+        "Infrared goggles", "Drone jammer", "Quantum drive core (stolen tech)", "Meditation guide", "Sleeping bag",
+        "Tranquilizer darts", "Binoculars", "Dinosaur encyclopedia", "Rope ladder", "Noise-canceling headphones",
+        "Camo netting", "Solar lantern", "Climbing gear", "GPS device", "Survival snacks", "Fossil samples",
+        "Fireworks (distraction)", "Motion sensor", "Field journal", "Wooden spear", "Insect repellent", "Compass",
+        "Topographical map", "Sample container", "Steel trap", "Waterproof bag", "Inflatable raft", "Water purifier",
+        "Fishing rod", "Diving mask", "Raincoat", "Sea survival guide", "Salt tablets", "Wind turbine", "Wetsuit",
+        "Life jacket", "Portable stove", "Duct tape", "Desalination pump", "Underwater flashlight", "Emergency flare",
+        "Mosquito net", "Emergency radio", "Floating map", "Manual typewriter", "Printed books",  "Toolset",
+        "Jamming device", "Backup generator", "Analog camera", "Lead-lined walls blueprint", "Battery-powered fan",
+        "Music CDs", "Paper maps", "Encryption handbook", "Morse code manual", "Mechanical clock", "Disguise kit", 
+        "Circuit board toolkit", "Puzzle games", "Wood carving tools", "Analog shortwave radio", "Lab notes",
+        "Poster of \"I, Robot\"", "Chalk and slate", "Full-face gas mask", "Biohazard suit", "UV sterilizer", 
+        "Medical scanner", "Sealed food packets", "Disinfectant spray", "Digital thermometer", "Antiviral pills",
+        "Portable microscope", "Chemical storage container", "Blood test kit", "Voice recorder", "Syringes",
+        "Hermetically sealed boots", "Virus structure poster", "Biohazard disposal bags", "Radiation detector",
+        "Nervous system charts", "Airlock operation manual", "Solar storm survival guide", "Heat-resistant clothing",
+        "Analog clock", "Water containers", "Underground temperature gauge", "Books on astronomy", "Manual fan",
+        "Wind-up flashlight", "Faraday cage toolkit", "UV index reader", "Deep-shade goggles", "Emergency food rations",
+        "Ham radio", "Radiation-proof tent", "Crank radio", "Night vision glasses", "Sunblock SPF 200", "Candle set",
+        "Insulated boots", "Temperature logbook"
     };
 
     private static readonly string[] AdditionalInformations =
@@ -163,6 +188,8 @@ public class GameService
     {
         "Athletic", "Slim", "Fit", "Flexible", "Average", "Overweight", "Obese", "Bodybuilder"
     };
+
+    //private static readonly int[] Ages = { _random.Next(18, 50), 52, 53, 55, 57, 60, 63, 66, 67, 69, 72, 75, 76, 79, 80, 88, 94, 101 };
     
     private readonly Random _random = new();
 
@@ -170,16 +197,15 @@ public class GameService
     {
         return new Player
         {
-            //Name = Names[_random.Next(Names.Length)],
             Profession = Professions[_random.Next(Professions.Length)],
-            Age = _random.Next(18, 85),
+            Age = _random.Next(18,56),
             Gender = Genders[_random.Next(Genders.Length)],
             Orientation = Orientations[_random.Next(Orientations.Length)],
             Health = Healthes[_random.Next(Healthes.Length)],
             Hobby = Hobbys[_random.Next(Hobbys.Length)],
             BodyType = BodyTypes[_random.Next(BodyTypes.Length)],
             Phobia = Phobias[_random.Next(Phobias.Length)],
-            //Luggage = Luggaages[_random.Next(Luggaages.Length)],
+            Luggage = Luggaages[_random.Next(Luggaages.Length)],
             AdditionalInformation = AdditionalInformations[_random.Next(AdditionalInformations.Length)],
             Personalitie = Personalities[_random.Next(Personalities.Length)],
             
