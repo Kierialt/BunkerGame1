@@ -17,10 +17,10 @@ public class BackupService: BackgroundService
     public BackupService(IConfiguration configuration)
     {
         // Читаем относительный путь из appsettings.json
-        string dbRelativePath = configuration.GetValue<string>("DbPath");
+        string? dbRelativePath = configuration.GetValue<string>("DbPath");
 
         // Преобразуем в абсолютный путь (относительно папки проекта)
-        string dbPath = Path.Combine(AppContext.BaseDirectory, dbRelativePath);
+        string dbPath = Path.Combine(AppContext.BaseDirectory, dbRelativePath ?? throw new InvalidOperationException());
 
         // Путь к папке для бэкапов
         string backupDir = Path.Combine(AppContext.BaseDirectory, "Backup");
