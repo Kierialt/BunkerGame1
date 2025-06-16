@@ -1,4 +1,3 @@
-using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
 namespace BunkerGame.Backend.Models;
@@ -15,9 +14,6 @@ public class Player
      public int Age { get; set; } 
      
     public string Orientation { get; set; } = default!;
-    
- 
-    public string Name { get; set; } = default!;
     
     public string Hobby { get; set; } = default!;
     
