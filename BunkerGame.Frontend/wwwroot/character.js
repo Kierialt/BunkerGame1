@@ -45,7 +45,6 @@ function showCharacter(data) {
                 <p><strong>Gender:</strong> ${data.gender}</p>
                 <p><strong>Age:</strong> ${data.age}</p>
                 <p><strong>Orientation:</strong> ${data.orientation}</p>
-                <p><strong>Name:</strong> ${data.name ?? "???"}</p>
                 <p><strong>Health:</strong> ${data.health}</p>
                 <p><strong>Hobby:</strong> ${data.hobby}</p>
                 <p><strong>Phobia:</strong> ${data.phobia}</p>
