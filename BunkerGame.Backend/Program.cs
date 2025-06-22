@@ -25,6 +25,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddScoped<GameService>();
 builder.Services.AddScoped<RoomService>();
+builder.Services.AddScoped<VotingService>();
 
 
 // Получаем строку подключения из переменной среды или из appsettings.Production/Development.json
