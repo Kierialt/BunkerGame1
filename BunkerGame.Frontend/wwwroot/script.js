@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const nickname = document.getElementById('loginNickname').value;
 
         try {
-            const response = await fetch('http://localhost:5138/Auth/Login', {
+            const response = await fetch(`${API_CONFIG.BASE_URL}/Auth/Login`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, password, nickname })
@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const nickname = document.getElementById('registerNickname').value;
 
         try {
-            const response = await fetch('http://localhost:5138/Auth/Register', {
+            const response = await fetch(`${API_CONFIG.BASE_URL}/Auth/Register`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email, password, nickname })
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const nickname = document.getElementById('creatorNickname').value;
 
         try {
-            const response = await fetch('http://localhost:5138/api/Room/CreateRoom', {
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/Room/CreateRoom`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name: roomName, maxPlayers, nickname })
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const nickname = document.getElementById('joinerNickname').value;
 
         try {
-            const response = await fetch('http://localhost:5138/api/Room/JoinRoom', {
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/Room/JoinRoom`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ sessionCode, nickname })
@@ -255,11 +255,11 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("joinRoomBtn").addEventListener("click", showJoinRoomModal);
     
     document.getElementById("startGameBtn").addEventListener("click", async () => {
-        // Показываем загрузку
+        // Show loading
         loadingOverlay.classList.add('active');
         
         try {
-            const response = await fetch("http://localhost:5138/api/Game/StartGame", {
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/Game/StartGame`, {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json',

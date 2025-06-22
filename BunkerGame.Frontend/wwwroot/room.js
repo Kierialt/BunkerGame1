@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function loadRoomInfo() {
         try {
-            const response = await fetch(`http://localhost:5138/api/Room/GetRoomInfo?roomId=${roomId}`);
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}`);
             
             if (response.ok) {
                 const data = await response.json();
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Start Game
     document.getElementById('startGameBtn').addEventListener('click', async () => {
         try {
-            const response = await fetch('http://localhost:5138/api/Room/StartGame', {
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/Room/StartGame`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ roomId: parseInt(roomId) })
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Start Voting
     document.getElementById('startVotingBtn').addEventListener('click', async () => {
         try {
-            const response = await fetch('http://localhost:5138/api/Room/StartVoting', {
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/Room/StartVoting`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ roomId: parseInt(roomId) })
@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         try {
             // Find player ID by name
-            const response = await fetch(`http://localhost:5138/api/Room/GetRoomInfo?roomId=${roomId}`);
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}`);
             const data = await response.json();
             const player = data.data.players.find(p => p.nickname === playerName);
             
@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
 
-            const revealResponse = await fetch('http://localhost:5138/api/Room/RevealCharacteristic', {
+            const revealResponse = await fetch(`${API_CONFIG.BASE_URL}/api/Room/RevealCharacteristic`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ 
@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function loadVotingInfo() {
         try {
-            const response = await fetch(`http://localhost:5138/api/Room/GetCurrentVoting?roomId=${roomId}`);
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/Room/GetCurrentVoting?roomId=${roomId}`);
             
             if (response.ok) {
                 const data = await response.json();
@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', function() {
     async function castVote(targetPlayerName) {
         try {
             // Get current voting round
-            const votingResponse = await fetch(`http://localhost:5138/api/Room/GetCurrentVoting?roomId=${roomId}`);
+            const votingResponse = await fetch(`${API_CONFIG.BASE_URL}/api/Room/GetCurrentVoting?roomId=${roomId}`);
             const votingData = await votingResponse.json();
             const voting = votingData.data;
             
@@ -325,7 +325,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             // Find player IDs
-            const roomResponse = await fetch(`http://localhost:5138/api/Room/GetRoomInfo?roomId=${roomId}`);
+            const roomResponse = await fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}`);
             const roomData = await roomResponse.json();
             const voter = roomData.data.players.find(p => p.nickname === playerNickname);
             const target = roomData.data.players.find(p => p.nickname === targetPlayerName);
@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
 
-            const voteResponse = await fetch('http://localhost:5138/api/Room/Vote', {
+            const voteResponse = await fetch(`${API_CONFIG.BASE_URL}/api/Room/Vote`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
