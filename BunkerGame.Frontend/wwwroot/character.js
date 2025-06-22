@@ -13,23 +13,24 @@ function setFlipCardHeight() {
     }, 50);
 }
 
-async function loadCharacter() {
-    // Trying to get a new character from the backend
+async function getCharacter() {
     try {
-        const response = await fetch("http://localhost:5138/api/Game/StartGame", {
-            method: "POST"
+        const response = await fetch(`${API_CONFIG.BASE_URL}/api/Game/StartGame`, {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json',
+            }
         });
+
         if (response.ok) {
             const data = await response.json();
-            showCharacter(data.data);
-            // save new character to localStorage
-            localStorage.setItem("characterData", JSON.stringify(data.data));
+            displayCharacter(data.data);
             setFlipCardHeight();
         } else {
-            document.getElementById("characterCard").innerHTML = "<p>Ошибка при получении персонажа.</p>";
+            document.getElementById("characterCard").innerHTML = "<p>Error while getting character.</p>";
         }
     } catch {
-        document.getElementById("characterCard").innerHTML = "<p>Сервер недоступен.</p>";
+        document.getElementById("characterCard").innerHTML = "<p>Server unavailable.</p>";
     }
 }
 
@@ -64,29 +65,34 @@ function showCharacter(data) {
     setFlipCardHeight();
 }
 
-async function loadStory() {
-    // check if there is a saved story
-    const savedStory = localStorage.getItem("apocalypseStory");
-    if (savedStory) {
-        document.getElementById("storyContent").innerHTML = savedStory;
-        return;
-    }
-
-    // If there is no story, load a new one
+async function getStory() {
     try {
-        const response = await fetch("http://localhost:5138/api/Game/RandomStory", {
-            method: "GET"
+        const response = await fetch(`${API_CONFIG.BASE_URL}/api/Game/RandomStory`, {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json',
+            }
         });
+
         if (response.ok) {
             const data = await response.json();
-            const storyHtml = `<strong>${data.data.replace(/[\u{1F300}-\u{1F9FF}]/gu, '').replace(/\n/g, '<br>')}</strong>`;
+            const story = data.data;
+            
+            // If there is no story, load a new one
+            if (!story || story.trim() === '') {
+                getStory();
+                return;
+            }
+            
+            // Remove emoji and wrap text in strong tags for bold font
+            const storyHtml = story.replace(/^[^\w\s]*/, '').replace(/\b(\w+)\b/g, '<strong>$1</strong>');
             document.getElementById("storyContent").innerHTML = storyHtml;
             localStorage.setItem("apocalypseStory", storyHtml);
         } else {
-            document.getElementById("storyContent").innerHTML = "<p>Ошибка при загрузке истории.</p>";
+            document.getElementById("storyContent").innerHTML = "<p>Error while loading story.</p>";
         }
     } catch {
-        document.getElementById("storyContent").innerHTML = "<p>Сервер недоступен.</p>";
+        document.getElementById("storyContent").innerHTML = "<p>Server unavailable.</p>";
     }
 }
 
@@ -101,9 +107,9 @@ window.onload = function() {
     if (data) {
         showCharacter(data);
     } else {
-        loadCharacter();
+        getCharacter();
     }
-    loadStory();
+    getStory();
 
     // Flip logic
     flipCard.onclick = function() {
@@ -117,7 +123,7 @@ window.onload = function() {
 
     // Buttons
     document.getElementById("refreshBtn").onclick = async function() {
-        await loadCharacter();
+        await getCharacter();
         // Keep card face down after refresh
         isFlipped = false;
         flipCard.classList.remove("flipped");
