@@ -81,6 +81,9 @@
                     <option value="10">10 players (5 winners)</option>
                 </select>
                 <input type="text" id="creatorNickname" placeholder="Your Nickname" required>
+                <div class="nickname-hint" id="creatorNicknameHint" style="display:none; color:#4CAF50; font-size:0.9em; margin-top:5px;">
+                    ✓ Using your logged-in nickname
+                </div>
                 <button type="submit" class="modal-btn">Create Room</button>
             </form>
             <div id="createRoomMessage" class="modal-message"></div>
@@ -95,6 +98,9 @@
             <form id="joinRoomForm">
                 <input type="text" id="sessionCode" placeholder="Session Code (6 characters)" required>
                 <input type="text" id="joinerNickname" placeholder="Your Nickname" required>
+                <div class="nickname-hint" id="joinerNicknameHint" style="display:none; color:#4CAF50; font-size:0.9em; margin-top:5px;">
+                    ✓ Using your logged-in nickname
+                </div>
                 <button type="submit" class="modal-btn">Join Room</button>
             </form>
             <div id="joinRoomMessage" class="modal-message"></div>

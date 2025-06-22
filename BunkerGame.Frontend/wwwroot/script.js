@@ -18,11 +18,51 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     function showCreateRoomModal() {
-        document.getElementById('createRoomModal').style.display = 'flex';
+        const modal = document.getElementById('createRoomModal');
+        const nicknameField = document.getElementById('creatorNickname');
+        const nicknameHint = document.getElementById('creatorNicknameHint');
+        
+        // Если пользователь залогинен, автоматически заполняем никнейм
+        const loggedInNickname = localStorage.getItem('nickname');
+        if (loggedInNickname) {
+            nicknameField.value = loggedInNickname;
+            nicknameField.readOnly = true;
+            nicknameField.style.backgroundColor = '#444';
+            nicknameField.style.color = '#888';
+            nicknameHint.style.display = 'block';
+        } else {
+            nicknameField.value = '';
+            nicknameField.readOnly = false;
+            nicknameField.style.backgroundColor = '#2d2d2d';
+            nicknameField.style.color = '#fff';
+            nicknameHint.style.display = 'none';
+        }
+        
+        modal.style.display = 'flex';
     }
     
     function showJoinRoomModal() {
-        document.getElementById('joinRoomModal').style.display = 'flex';
+        const modal = document.getElementById('joinRoomModal');
+        const nicknameField = document.getElementById('joinerNickname');
+        const nicknameHint = document.getElementById('joinerNicknameHint');
+        
+        // Если пользователь залогинен, автоматически заполняем никнейм
+        const loggedInNickname = localStorage.getItem('nickname');
+        if (loggedInNickname) {
+            nicknameField.value = loggedInNickname;
+            nicknameField.readOnly = true;
+            nicknameField.style.backgroundColor = '#444';
+            nicknameField.style.color = '#888';
+            nicknameHint.style.display = 'block';
+        } else {
+            nicknameField.value = '';
+            nicknameField.readOnly = false;
+            nicknameField.style.backgroundColor = '#2d2d2d';
+            nicknameField.style.color = '#fff';
+            nicknameHint.style.display = 'none';
+        }
+        
+        modal.style.display = 'flex';
     }
     
     function closeModals() {
