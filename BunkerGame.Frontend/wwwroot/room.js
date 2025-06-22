@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
 
+    
     // Initialize room
     document.getElementById('sessionCode').textContent = sessionCode;
     document.getElementById('playerNickname').textContent = playerNickname;

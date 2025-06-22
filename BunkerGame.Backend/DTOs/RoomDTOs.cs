@@ -7,6 +7,7 @@ public class CreateRoomDto
     public string? Nickname { get; set; }
 }
 
+
 public class JoinRoomDto
 {
     public string SessionCode { get; set; } = default!;
