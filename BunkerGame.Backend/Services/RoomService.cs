@@ -88,13 +88,13 @@ public class RoomService
 
     public async Task<GameRoom> CreateRoomAsync(CreateRoomDto dto, string? nickname = null)
     {
-        // Генерируем уникальный код сессии
+        // Generate a unique session code
         var sessionCode = GenerateSessionCode();
         
-        // Вычисляем количество победителей (в 2 раза меньше игроков)
+        // Calculate the number of winners (half the number of players)
         var winnersCount = dto.MaxPlayers / 2;
         
-        // Создаем комнату
+        // Create the room
         var room = new GameRoom
         {
             Name = dto.Name,
@@ -109,7 +109,7 @@ public class RoomService
         _context.GameRooms.Add(room);
         await _context.SaveChangesAsync();
 
-        // Если передан никнейм, добавляем первого игрока
+        // If a nickname is provided, add the first player
         if (!string.IsNullOrEmpty(nickname))
         {
             await JoinRoomAsync(room.Id, nickname);
@@ -127,20 +127,20 @@ public class RoomService
         if (room == null || room.Status != GameStatus.Waiting)
             return null;
 
-        // Проверяем, не занят ли никнейм
+        // Check if the nickname is already taken
         if (room.RoomPlayers.Any(p => p.Nickname == nickname))
             return null;
 
-        // Проверяем, есть ли место
+        // Check if there is available space
         if (room.CurrentPlayers >= room.MaxPlayers)
             return null;
 
-        // Создаем персонажа для игрока
+        // Create a character for the player
         var player = _gameService.CreateRandomPlayer();
         _context.Players.Add(player);
         await _context.SaveChangesAsync();
 
-        // Добавляем игрока в комнату
+        // Add the player to the room
         var roomPlayer = new RoomPlayer
         {
             GameRoomId = roomId,
@@ -186,7 +186,7 @@ public class RoomService
             IsAlive = rp.IsAlive,
             IsWinner = rp.IsWinner,
             
-            // Характеристики (только открытые)
+            // Traits (only revealed ones)
             Profession = rp.IsProfessionRevealed ? rp.Player.Profession : null,
             Gender = rp.IsGenderRevealed ? rp.Player.Gender : null,
             Age = rp.IsAgeRevealed ? rp.Player.Age : null,
@@ -199,7 +199,7 @@ public class RoomService
             Health = rp.IsHealthRevealed ? rp.Player.Health : null,
             Personality = rp.IsPersonalityRevealed ? rp.Player.Personalitie : null,
             
-            // Флаги открытия
+            // Reveal flags
             IsProfessionRevealed = rp.IsProfessionRevealed,
             IsGenderRevealed = rp.IsGenderRevealed,
             IsAgeRevealed = rp.IsAgeRevealed,
@@ -237,7 +237,7 @@ public class RoomService
         if (room == null || room.Status != GameStatus.Waiting)
             return false;
 
-        // Проверяем минимальное количество игроков
+        // Check minimum number of players
         if (room.CurrentPlayers < 5)
             return false;
 

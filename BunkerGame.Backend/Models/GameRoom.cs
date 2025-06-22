@@ -37,7 +37,7 @@ public class GameRoom
 
 public enum GameStatus
 {
-    Waiting,    // Ожидание игроков
-    Playing,    // Игра идет
-    Finished    // Игра завершена
+    Waiting,    // Waiting for players 
+    Playing,    // Game in progress
+    Finished    // Game finished
 } 

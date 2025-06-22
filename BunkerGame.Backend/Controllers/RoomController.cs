@@ -27,7 +27,7 @@ public class RoomController : ControllerBase
             
             var response = new ApiResponse<object>(
                 success: true,
-                message: "Комната успешно создана!",
+                message: "Room created successfully!",
                 data: new { 
                     RoomId = room.Id, 
                     SessionCode = room.SessionCode,
@@ -42,7 +42,7 @@ public class RoomController : ControllerBase
         {
             var errorResponse = new ApiResponse<object>(
                 success: false,
-                message: $"Ошибка: {ex.Message}",
+                message: $"Error: {ex.Message}",
                 data: null
             );
 
@@ -61,7 +61,7 @@ public class RoomController : ControllerBase
             {
                 var errorResponse = new ApiResponse<object>(
                     success: false,
-                    message: "Не удалось присоединиться к комнате. Проверьте код сессии и никнейм.",
+                    message: "Failed to join the room. Please check the session code or nickname.",
                     data: null
                 );
                 return BadRequest(errorResponse);
@@ -69,7 +69,7 @@ public class RoomController : ControllerBase
 
             var response = new ApiResponse<object>(
                 success: true,
-                message: "Успешно присоединились к комнате!",
+                message: "Successfully joined the room!",
                 data: new { RoomId = roomPlayer.GameRoomId, RoomPlayerId = roomPlayer.Id }
             );
 
@@ -79,7 +79,7 @@ public class RoomController : ControllerBase
         {
             var errorResponse = new ApiResponse<object>(
                 success: false,
-                message: $"Ошибка: {ex.Message}",
+                message: $"Error: {ex.Message}",
                 data: null
             );
 
@@ -98,7 +98,7 @@ public class RoomController : ControllerBase
             {
                 var errorResponse = new ApiResponse<object>(
                     success: false,
-                    message: "Комната не найдена.",
+                    message: "Room not found.",
                     data: null
                 );
                 return NotFound(errorResponse);
@@ -106,7 +106,7 @@ public class RoomController : ControllerBase
 
             var response = new ApiResponse<RoomInfoDto>(
                 success: true,
-                message: "Информация о комнате получена.",
+                message: "Room information retrieved.",
                 data: roomInfo
             );
 
@@ -116,7 +116,7 @@ public class RoomController : ControllerBase
         {
             var errorResponse = new ApiResponse<object>(
                 success: false,
-                message: $"Ошибка: {ex.Message}",
+                message: $"Error: {ex.Message}",
                 data: null
             );
 
@@ -135,7 +135,7 @@ public class RoomController : ControllerBase
             {
                 var errorResponse = new ApiResponse<object>(
                     success: false,
-                    message: "Не удалось начать игру. Убедитесь, что в комнате минимум 5 игроков.",
+                    message: "Failed to start the game. Make sure there are at least 5 players in the room.",
                     data: null
                 );
                 return BadRequest(errorResponse);
@@ -143,7 +143,7 @@ public class RoomController : ControllerBase
 
             var response = new ApiResponse<object>(
                 success: true,
-                message: "Игра началась!",
+                message: "The game has started!",
                 data: null
             );
 
@@ -153,7 +153,7 @@ public class RoomController : ControllerBase
         {
             var errorResponse = new ApiResponse<object>(
                 success: false,
-                message: $"Ошибка: {ex.Message}",
+                message: $"Error: {ex.Message}",
                 data: null
             );
 
@@ -172,7 +172,7 @@ public class RoomController : ControllerBase
             {
                 var errorResponse = new ApiResponse<object>(
                     success: false,
-                    message: "Не удалось начать голосование.",
+                    message: "Failed to start the voting.",
                     data: null
                 );
                 return BadRequest(errorResponse);
@@ -180,7 +180,7 @@ public class RoomController : ControllerBase
 
             var response = new ApiResponse<object>(
                 success: true,
-                message: $"Раунд голосования #{votingRound.RoundNumber} начался!",
+                message: $"The voting round #{votingRound.RoundNumber} has started!",
                 data: new { VotingRoundId = votingRound.Id, RoundNumber = votingRound.RoundNumber }
             );
 
@@ -190,7 +190,7 @@ public class RoomController : ControllerBase
         {
             var errorResponse = new ApiResponse<object>(
                 success: false,
-                message: $"Ошибка: {ex.Message}",
+                message: $"Error: {ex.Message}",
                 data: null
             );
 
@@ -209,7 +209,7 @@ public class RoomController : ControllerBase
             {
                 var errorResponse = new ApiResponse<object>(
                     success: false,
-                    message: "Не удалось проголосовать.",
+                    message: "Failed to cast vote.",
                     data: null
                 );
                 return BadRequest(errorResponse);
@@ -217,7 +217,7 @@ public class RoomController : ControllerBase
 
             var response = new ApiResponse<object>(
                 success: true,
-                message: "Голос учтен!",
+                message: "Vote counted!",
                 data: null
             );
 
@@ -227,7 +227,7 @@ public class RoomController : ControllerBase
         {
             var errorResponse = new ApiResponse<object>(
                 success: false,
-                message: $"Ошибка: {ex.Message}",
+                message: $"Error: {ex.Message}",
                 data: null
             );
 
@@ -246,7 +246,7 @@ public class RoomController : ControllerBase
             {
                 var errorResponse = new ApiResponse<object>(
                     success: false,
-                    message: "Активное голосование не найдено.",
+                    message: "No active voting found.",
                     data: null
                 );
                 return NotFound(errorResponse);
@@ -254,7 +254,7 @@ public class RoomController : ControllerBase
 
             var response = new ApiResponse<VotingRoundDto>(
                 success: true,
-                message: "Информация о голосовании получена.",
+                message: "Voting information received.",
                 data: votingRound
             );
 
@@ -264,7 +264,7 @@ public class RoomController : ControllerBase
         {
             var errorResponse = new ApiResponse<object>(
                 success: false,
-                message: $"Ошибка: {ex.Message}",
+                message: $"Error: {ex.Message}",
                 data: null
             );
 
@@ -283,7 +283,7 @@ public class RoomController : ControllerBase
             {
                 var errorResponse = new ApiResponse<object>(
                     success: false,
-                    message: "Не удалось открыть характеристику.",
+                    message: "Failed to open the trait.",
                     data: null
                 );
                 return BadRequest(errorResponse);
@@ -291,7 +291,7 @@ public class RoomController : ControllerBase
 
             var response = new ApiResponse<object>(
                 success: true,
-                message: "Характеристика открыта!",
+                message: "Trait opened!",
                 data: null
             );
 
@@ -301,7 +301,7 @@ public class RoomController : ControllerBase
         {
             var errorResponse = new ApiResponse<object>(
                 success: false,
-                message: $"Ошибка: {ex.Message}",
+                message: $"Error: {ex.Message}",
                 data: null
             );
 

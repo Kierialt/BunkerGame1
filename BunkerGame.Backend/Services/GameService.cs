@@ -188,8 +188,7 @@ public class GameService
     {
         "Athletic", "Slim", "Fit", "Flexible", "Average", "Overweight", "Obese", "Bodybuilder"
     };
-
-    //private static readonly int[] Ages = { _random.Next(18, 50), 52, 53, 55, 57, 60, 63, 66, 67, 69, 72, 75, 76, 79, 80, 88, 94, 101 };
+    
     
     private readonly Random _random = new();
 

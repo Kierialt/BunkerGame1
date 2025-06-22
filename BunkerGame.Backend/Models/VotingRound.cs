@@ -27,6 +27,6 @@ public class VotingRound
 
 public enum VotingStatus
 {
-    Active,     // Голосование активно
-    Finished    // Голосование завершено
+    Active,     // Voting active
+    Finished    // Voting completed
 } 

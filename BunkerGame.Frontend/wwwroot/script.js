@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const nicknameField = document.getElementById('creatorNickname');
         const nicknameHint = document.getElementById('creatorNicknameHint');
         
-        // Если пользователь залогинен, автоматически заполняем никнейм
+        // If the user is logged in, automatically fill in the nickname.
         const loggedInNickname = localStorage.getItem('nickname');
         if (loggedInNickname) {
             nicknameField.value = loggedInNickname;
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const nicknameField = document.getElementById('joinerNickname');
         const nicknameHint = document.getElementById('joinerNicknameHint');
         
-        // Если пользователь залогинен, автоматически заполняем никнейм
+        // If the user is logged in, automatically fill in the nickname
         const loggedInNickname = localStorage.getItem('nickname');
         if (loggedInNickname) {
             nicknameField.value = loggedInNickname;

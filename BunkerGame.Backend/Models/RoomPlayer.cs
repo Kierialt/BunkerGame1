@@ -28,8 +28,8 @@ public class RoomPlayer
     
     public DateTime? LeftAt { get; set; }
     
-    // Скрытые характеристики (открываются постепенно)
-    public bool IsProfessionRevealed { get; set; } = true; // Профессия видна сразу
+    // Hidden traits (revealed gradually)
+    public bool IsProfessionRevealed { get; set; } = true; // Profession visible immediately
     public bool IsGenderRevealed { get; set; } = false;
     public bool IsAgeRevealed { get; set; } = false;
     public bool IsOrientationRevealed { get; set; } = false;

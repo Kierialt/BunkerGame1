@@ -24,21 +24,21 @@ public class VotingService
         if (room == null || room.Status != GameStatus.Playing)
             return null;
 
-        // Проверяем, есть ли активное голосование
+        // Check if there is an active vote
         var activeVoting = room.VotingRounds.FirstOrDefault(v => v.Status == VotingStatus.Active);
         if (activeVoting != null)
             return activeVoting;
 
-        // Проверяем, сколько игроков осталось
+        // Check how many players remain
         var alivePlayers = room.RoomPlayers.Where(p => p.IsAlive).ToList();
         if (alivePlayers.Count <= room.WinnersCount)
         {
-            // Игра окончена, определяем победителей
+            // Game over, determine the winners
             await EndGameAsync(roomId);
             return null;
         }
 
-        // Создаем новый раунд голосования
+        // Create a new voting round
         var roundNumber = room.VotingRounds.Count + 1;
         var votingRound = new VotingRound
         {
@@ -64,29 +64,29 @@ public class VotingService
         if (votingRound == null || votingRound.Status != VotingStatus.Active)
             return false;
 
-        // Проверяем, что голосующий жив
+        // Check that the voter is alive
         var voter = votingRound.GameRoom.RoomPlayers.FirstOrDefault(p => p.Id == voterId && p.IsAlive);
         if (voter == null)
             return false;
 
-        // Проверяем, что за кого голосуют - жив
+        // Check that the voted player is alive
         var votedFor = votingRound.GameRoom.RoomPlayers.FirstOrDefault(p => p.Id == votedForId && p.IsAlive);
         if (votedFor == null)
             return false;
 
-        // Проверяем, не голосовал ли уже этот игрок
+        // Check if this player has already voted
         var existingVote = await _context.Votes
             .FirstOrDefaultAsync(v => v.VotingRoundId == votingRoundId && v.VoterId == voterId);
 
         if (existingVote != null)
         {
-            // Обновляем существующий голос
+            // Update the existing vote
             existingVote.VotedForId = votedForId;
             existingVote.VotedAt = DateTime.UtcNow;
         }
         else
         {
-            // Создаем новый голос
+            // Create a new vote
             var vote = new Vote
             {
                 VotingRoundId = votingRoundId,
@@ -99,7 +99,7 @@ public class VotingService
 
         await _context.SaveChangesAsync();
 
-        // Проверяем, все ли проголосовали
+        // Check if everyone has voted
         await CheckVotingCompletionAsync(votingRoundId);
 
         return true;
@@ -185,7 +185,7 @@ public class VotingService
         var alivePlayers = votingRound.GameRoom.RoomPlayers.Where(p => p.IsAlive).ToList();
         var votes = votingRound.Votes.ToList();
 
-        // Если все живые игроки проголосовали
+        // If all alive players have voted
         if (votes.Count >= alivePlayers.Count)
         {
             await CompleteVotingRoundAsync(votingRoundId);
@@ -202,7 +202,7 @@ public class VotingService
         if (votingRound == null)
             return;
 
-        // Подсчитываем голоса
+        // Count the votes
         var voteCounts = votingRound.Votes
             .GroupBy(v => v.VotedForId)
             .Select(g => new { PlayerId = g.Key, Count = g.Count() })
@@ -211,7 +211,7 @@ public class VotingService
 
         if (voteCounts.Any())
         {
-            // Исключаем игрока с наибольшим количеством голосов
+            // Eliminate the player with the highest number of votes
             var eliminatedPlayerId = voteCounts.First().PlayerId;
             var eliminatedPlayer = await _context.RoomPlayers
                 .FirstOrDefaultAsync(p => p.Id == eliminatedPlayerId);
@@ -238,7 +238,7 @@ public class VotingService
         if (room == null)
             return;
 
-        // Определяем победителей (оставшихся живых игроков)
+        // Determine the winners (remaining alive players)
         var winners = room.RoomPlayers.Where(p => p.IsAlive).Take(room.WinnersCount).ToList();
         foreach (var winner in winners)
         {

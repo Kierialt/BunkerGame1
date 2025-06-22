@@ -35,7 +35,7 @@ public class RoomPlayerDto
     public bool IsAlive { get; set; }
     public bool IsWinner { get; set; }
     
-    // Характеристики игрока (только те, что открыты)
+    // Player traits (only those that are revealed
     public string? Profession { get; set; }
     public string? Gender { get; set; }
     public int? Age { get; set; }
@@ -48,7 +48,7 @@ public class RoomPlayerDto
     public string? Health { get; set; }
     public string? Personality { get; set; }
     
-    // Флаги открытия характеристик
+    // Trait reveal flags
     public bool IsProfessionRevealed { get; set; }
     public bool IsGenderRevealed { get; set; }
     public bool IsAgeRevealed { get; set; }

@@ -72,14 +72,13 @@ async function loadStory() {
         return;
     }
 
-    // Если истории нет, загружаем новую
+    // If there is no story, load a new one
     try {
         const response = await fetch("http://localhost:5138/api/Game/RandomStory", {
             method: "GET"
         });
         if (response.ok) {
             const data = await response.json();
-            // Убираем эмодзи и обернем текст в теги strong для жирного шрифта
             const storyHtml = `<strong>${data.data.replace(/[\u{1F300}-\u{1F9FF}]/gu, '').replace(/\n/g, '<br>')}</strong>`;
             document.getElementById("storyContent").innerHTML = storyHtml;
             localStorage.setItem("apocalypseStory", storyHtml);
@@ -139,7 +138,7 @@ window.onload = function() {
 `***************
 *  TOP SECRET  *
 ***************
-Data is hidden.`;
+Information is hidden.`;
 
         document.getElementById("shareText").value = maskedText;
 

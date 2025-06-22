@@ -29,7 +29,7 @@ public class GameController : ControllerBase
 
             var response = new ApiResponse<Player>(
                 success: true,
-                message: "Игрок успешно создан!",
+                message: "Player created successfully!",
                 data: player
             );
 
@@ -37,18 +37,16 @@ public class GameController : ControllerBase
         }
         catch (Exception ex)
         {
-            // Если что-то пошло не так — вернем ошибку
             var errorResponse = new ApiResponse<object>(
                 success: false,
-                message: $"Ошибка типа {ex.Message}",
+                message: $"Type error {ex.Message}",
                 data: null
             );
 
             return StatusCode(500, errorResponse);
         }
     }
-
-
+    
 
 
         private readonly RoomService _roomService;
@@ -59,12 +57,12 @@ public class GameController : ControllerBase
             try
             {
                 var story = _roomService.CreateRandomStory();
-                var response = new ApiResponse<string>(true, "Сюжет успешно создан", story);
+                var response = new ApiResponse<string>(true, "Story created successfully", story);
                 return Ok(response);
             }
             catch (Exception ex)
             {
-                var error = new ApiResponse<object>(false, $"Ошибка: {ex.Message}");
+                var error = new ApiResponse<object>(false, $"Error: {ex.Message}");
                 return StatusCode(500, error);
             }
         }

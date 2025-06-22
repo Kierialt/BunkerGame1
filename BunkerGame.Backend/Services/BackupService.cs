@@ -12,17 +12,17 @@ using System.IO;
 public class BackupService: BackgroundService
 {
     private readonly BackupCreator _backupCreator;
-    private readonly TimeSpan _interval = TimeSpan.FromDays(1); // запуск раз в сутки
+    private readonly TimeSpan _interval = TimeSpan.FromDays(1); // runs once a day
 
     public BackupService(IConfiguration configuration)
     {
-        // Читаем относительный путь из appsettings.json
+        // Read the relative path from appsettings.json
         string? dbRelativePath = configuration.GetValue<string>("DbPath");
 
-        // Преобразуем в абсолютный путь (относительно папки проекта)
+        // Convert to absolute path (relative to the project folder)
         string dbPath = Path.Combine(AppContext.BaseDirectory, dbRelativePath ?? throw new InvalidOperationException());
 
-        // Путь к папке для бэкапов
+        // Path to the backups folder
         string backupDir = Path.Combine(AppContext.BaseDirectory, "Backup");
 
         _backupCreator = new BackupCreator(dbPath, backupDir);
