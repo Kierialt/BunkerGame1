@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bunker Game - Room</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loading-overlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">JOINING BUNKER...</div>
+    </div>
+
+    <div class="room-header">
+        <button id="backBtn" class="back-btn">← Back to Menu</button>
+        <div class="room-info">
+            <h2 id="roomName">Room Name</h2>
+            <div class="room-code">Code: <span id="sessionCode">XXXXXX</span></div>
+            <div class="room-status">Status: <span id="roomStatus">Waiting</span></div>
+        </div>
+        <div class="player-info">
+            <span>You: <span id="playerNickname">Player</span></span>
+        </div>
+    </div>
+
+    <div class="room-container">
+        <div class="story-section">
+            <h3>📖 Story</h3>
+            <div id="storyText" class="story-text"></div>
+        </div>
+
+        <div class="players-section">
+            <h3>👥 Players (<span id="playerCount">0</span>/<span id="maxPlayers">0</span>)</h3>
+            <div id="playersList" class="players-list"></div>
+        </div>
+
+        <div class="game-controls">
+            <button id="startGameBtn" class="game-btn" style="display:none;">Start Game</button>
+            <button id="startVotingBtn" class="game-btn" style="display:none;">Start Voting</button>
+            <button id="revealCharacteristicBtn" class="game-btn" style="display:none;">Reveal Characteristic</button>
+        </div>
+
+        <div id="votingSection" class="voting-section" style="display:none;">
+            <h3>🗳️ Voting Round #<span id="votingRoundNumber">1</span></h3>
+            <div id="votingStatus" class="voting-status"></div>
+            <div id="votingOptions" class="voting-options"></div>
+            <div id="votingResults" class="voting-results"></div>
+        </div>
+    </div>
+
+    <!-- Reveal Characteristic Modal -->
+    <div id="revealModal" class="modal" style="display:none;">
+        <div class="modal-content auth-modal">
+            <span class="close" id="closeRevealModal">&times;</span>
+            <h2>Reveal Characteristic</h2>
+            <form id="revealForm">
+                <select id="playerSelect" required>
+                    <option value="">Select player</option>
+                </select>
+                <select id="characteristicSelect" required>
+                    <option value="">Select characteristic</option>
+                    <option value="gender">Gender</option>
+                    <option value="age">Age</option>
+                    <option value="orientation">Orientation</option>
+                    <option value="hobby">Hobby</option>
+                    <option value="phobia">Phobia</option>
+                    <option value="luggage">Luggage</option>
+                    <option value="additionalinfo">Additional Information</option>
+                    <option value="bodytype">Body Type</option>
+                    <option value="health">Health</option>
+                    <option value="personality">Personality</option>
+                </select>
+                <button type="submit" class="modal-btn">Reveal</button>
+            </form>
+            <div id="revealMessage" class="modal-message"></div>
+        </div>
+    </div>
+
+    <script src="room.js"></script>
+</body>
+</html> 
