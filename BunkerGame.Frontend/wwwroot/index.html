@@ -23,7 +23,9 @@
     <div class="container">
         <h1>BUNKER GAME</h1>
         <div class="buttons">
-            <button id="startGameBtn">Start Game</button>
+            <button id="createRoomBtn">Create Room</button>
+            <button id="joinRoomBtn">Join Room</button>
+            <button id="startGameBtn">Single Player</button>
             <button id="rulesBtn">Show Rules</button>
         </div>
     </div>
@@ -59,6 +61,43 @@
             <p style="margin:10px 0 0 0;">Already have an account? <a href="#" id="showLogin">Login</a></p>
             <div style="margin-top:8px; color:#888; font-size:0.95em;">You can play Bunker as a guest without registration.</div>
             <div id="registerMessage"></div>
+        </div>
+    </div>
+
+    <!-- Create Room Modal -->
+    <div id="createRoomModal" class="modal" style="display:none;">
+        <div class="modal-content auth-modal">
+            <span class="close" id="closeCreateRoomModal">&times;</span>
+            <h2>Create Game Room</h2>
+            <form id="createRoomForm">
+                <input type="text" id="roomName" placeholder="Room Name" required>
+                <select id="maxPlayers" required>
+                    <option value="">Select max players</option>
+                    <option value="5">5 players (2 winners)</option>
+                    <option value="6">6 players (3 winners)</option>
+                    <option value="7">7 players (3 winners)</option>
+                    <option value="8">8 players (4 winners)</option>
+                    <option value="9">9 players (4 winners)</option>
+                    <option value="10">10 players (5 winners)</option>
+                </select>
+                <input type="text" id="creatorNickname" placeholder="Your Nickname" required>
+                <button type="submit" class="modal-btn">Create Room</button>
+            </form>
+            <div id="createRoomMessage" class="modal-message"></div>
+        </div>
+    </div>
+
+    <!-- Join Room Modal -->
+    <div id="joinRoomModal" class="modal" style="display:none;">
+        <div class="modal-content auth-modal">
+            <span class="close" id="closeJoinRoomModal">&times;</span>
+            <h2>Join Game Room</h2>
+            <form id="joinRoomForm">
+                <input type="text" id="sessionCode" placeholder="Session Code (6 characters)" required>
+                <input type="text" id="joinerNickname" placeholder="Your Nickname" required>
+                <button type="submit" class="modal-btn">Join Room</button>
+            </form>
+            <div id="joinRoomMessage" class="modal-message"></div>
         </div>
     </div>
 
