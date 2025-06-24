@@ -190,20 +190,43 @@ document.addEventListener('DOMContentLoaded', function() {
     function showRevealModal() {
         const modal = document.getElementById('revealModal');
         const playerSelect = document.getElementById('playerSelect');
-        
-        // Populate player select
-        playerSelect.innerHTML = '<option value="">Select player</option>';
-        
-        // Get current players from the page
-        const playerCards = document.querySelectorAll('.player-card');
-        playerCards.forEach(card => {
-            const playerName = card.querySelector('.player-name').textContent;
-            const option = document.createElement('option');
-            option.value = playerName;
-            option.textContent = playerName;
-            playerSelect.appendChild(option);
-        });
-        
+        const characteristicSelect = document.getElementById('characteristicSelect');
+        const currentNickname = localStorage.getItem('currentPlayerNickname');
+        // Populate player select (только текущий игрок)
+        playerSelect.innerHTML = '';
+        const option = document.createElement('option');
+        option.value = currentNickname;
+        option.textContent = currentNickname;
+        playerSelect.appendChild(option);
+        // Получаем данные о комнате и игроках
+        fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}`)
+            .then(res => res.json())
+            .then(data => {
+                const player = data.data.players.find(p => p.nickname === currentNickname);
+                // Список всех характеристик
+                const allCharacteristics = [
+                    { value: 'gender', label: 'Gender', revealed: player.isGenderRevealed },
+                    { value: 'age', label: 'Age', revealed: player.isAgeRevealed },
+                    { value: 'orientation', label: 'Orientation', revealed: player.isOrientationRevealed },
+                    { value: 'hobby', label: 'Hobby', revealed: player.isHobbyRevealed },
+                    { value: 'phobia', label: 'Phobia', revealed: player.isPhobiaRevealed },
+                    { value: 'luggage', label: 'Luggage', revealed: player.isLuggageRevealed },
+                    { value: 'additionalinfo', label: 'Additional Information', revealed: player.isAdditionalInfoRevealed },
+                    { value: 'bodytype', label: 'Body Type', revealed: player.isBodyTypeRevealed },
+                    { value: 'health', label: 'Health', revealed: player.isHealthRevealed },
+                    { value: 'personality', label: 'Personality', revealed: player.isPersonalityRevealed }
+                ];
+                // Оставляем только неоткрытые
+                characteristicSelect.innerHTML = '<option value="">Select characteristic</option>';
+                allCharacteristics.forEach(c => {
+                    if (!c.revealed) {
+                        const opt = document.createElement('option');
+                        opt.value = c.value;
+                        opt.textContent = c.label;
+                        characteristicSelect.appendChild(opt);
+                    }
+                });
+            });
         modal.style.display = 'flex';
     }
 
