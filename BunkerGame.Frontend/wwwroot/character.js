@@ -68,7 +68,7 @@ function showCharacter(data) {
 async function getStory() {
     try {
         const response = await fetch(`${API_CONFIG.BASE_URL}/api/Game/RandomStory`, {
-            method: "POST",
+            method: "GET",
             headers: {
                 'Content-Type': 'application/json',
             }
