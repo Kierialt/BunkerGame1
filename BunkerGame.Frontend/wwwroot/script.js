@@ -283,4 +283,23 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("rulesBtn").addEventListener("click", () => {
         window.location.href = "rules.html";
     });
+
+    // Custom validation messages for all forms
+    function setCustomValidation() {
+        document.querySelectorAll('input, select').forEach(el => {
+            el.oninvalid = function(e) {
+                if (el.type === 'email') {
+                    el.setCustomValidity('Enter email address');
+                } else if (el.tagName === 'SELECT') {
+                    el.setCustomValidity('Select an item from the list');
+                } else {
+                    el.setCustomValidity('Fill in this field');
+                }
+            };
+            el.oninput = function(e) {
+                el.setCustomValidity('');
+            };
+        });
+    }
+    setCustomValidation();
 });
