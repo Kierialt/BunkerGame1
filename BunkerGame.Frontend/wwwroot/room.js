@@ -69,12 +69,18 @@ document.addEventListener('DOMContentLoaded', function() {
     function updatePlayersDisplay(players) {
         const playersList = document.getElementById('playersList');
         playersList.innerHTML = '';
+        const currentNickname = localStorage.getItem('currentPlayerNickname');
 
         players.forEach(player => {
+            const isCurrent = player.nickname === currentNickname;
             const playerCard = document.createElement('div');
-            playerCard.className = `player-card ${player.isAlive ? 'alive' : 'eliminated'} ${player.isWinner ? 'winner' : ''}`;
+            playerCard.className = `player-card ${player.isAlive ? 'alive' : 'eliminated'} ${player.isWinner ? 'winner' : ''}${isCurrent ? ' current-player' : ''}`;
             
-            let characteristics = `<div class="player-name">${player.nickname}</div>`;
+            let characteristics = '';
+            if (isCurrent) {
+                characteristics += `<div class=\"current-player-badge\">YOU</div>`;
+            }
+            characteristics += `<div class=\"player-name\">${player.nickname}</div>`;
             
             // Always show profession
             if (player.profession) {
