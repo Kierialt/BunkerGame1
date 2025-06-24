@@ -192,18 +192,18 @@ document.addEventListener('DOMContentLoaded', function() {
         const playerSelect = document.getElementById('playerSelect');
         const characteristicSelect = document.getElementById('characteristicSelect');
         const currentNickname = localStorage.getItem('currentPlayerNickname');
-        // Populate player select (только текущий игрок)
+        // Populate player select (only current player)
         playerSelect.innerHTML = '';
         const option = document.createElement('option');
         option.value = currentNickname;
         option.textContent = currentNickname;
         playerSelect.appendChild(option);
-        // Получаем данные о комнате и игроках
+        // Fetch room and player data
         fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}`)
             .then(res => res.json())
             .then(data => {
                 const player = data.data.players.find(p => p.nickname === currentNickname);
-                // Список всех характеристик
+                // List of all characteristics
                 const allCharacteristics = [
                     { value: 'gender', label: 'Gender', revealed: player.isGenderRevealed },
                     { value: 'age', label: 'Age', revealed: player.isAgeRevealed },
@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     { value: 'health', label: 'Health', revealed: player.isHealthRevealed },
                     { value: 'personality', label: 'Personality', revealed: player.isPersonalityRevealed }
                 ];
-                // Оставляем только неоткрытые
+                // Leave only unrevealed
                 characteristicSelect.innerHTML = '<option value="">Select characteristic</option>';
                 allCharacteristics.forEach(c => {
                     if (!c.revealed) {
