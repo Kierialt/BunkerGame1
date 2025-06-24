@@ -35,7 +35,7 @@ public class RoomPlayerDto
     public bool IsAlive { get; set; }
     public bool IsWinner { get; set; }
     
-    // Player traits (only those that are revealed
+    // Player traits (only those that are revealed)
     public string? Profession { get; set; }
     public string? Gender { get; set; }
     public int? Age { get; set; }
