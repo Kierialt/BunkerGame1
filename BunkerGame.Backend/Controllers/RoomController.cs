@@ -88,11 +88,11 @@ public class RoomController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetRoomInfo(int roomId)
+    public async Task<IActionResult> GetRoomInfo(int roomId, string? currentNickname = null)
     {
         try
         {
-            var roomInfo = await _roomService.GetRoomInfoAsync(roomId);
+            var roomInfo = await _roomService.GetRoomInfoAsync(roomId, currentNickname);
             
             if (roomInfo == null)
             {

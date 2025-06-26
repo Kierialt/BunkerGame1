@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function loadRoomInfo() {
         try {
-            const response = await fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}`);
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}&currentNickname=${encodeURIComponent(playerNickname)}`);
             
             if (response.ok) {
                 const data = await response.json();
@@ -199,30 +199,30 @@ document.addEventListener('DOMContentLoaded', function() {
         option.textContent = currentNickname;
         playerSelect.appendChild(option);
         // Fetch room and player data
-        fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}`)
+        fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}&currentNickname=${encodeURIComponent(currentNickname)}`)
             .then(res => res.json())
             .then(data => {
                 const player = data.data.players.find(p => p.nickname === currentNickname);
-                // List of all characteristics
+                // List of all characteristics with values
                 const allCharacteristics = [
-                    { value: 'gender', label: 'Gender', revealed: player.isGenderRevealed },
-                    { value: 'age', label: 'Age', revealed: player.isAgeRevealed },
-                    { value: 'orientation', label: 'Orientation', revealed: player.isOrientationRevealed },
-                    { value: 'hobby', label: 'Hobby', revealed: player.isHobbyRevealed },
-                    { value: 'phobia', label: 'Phobia', revealed: player.isPhobiaRevealed },
-                    { value: 'luggage', label: 'Luggage', revealed: player.isLuggageRevealed },
-                    { value: 'additionalinfo', label: 'Additional Information', revealed: player.isAdditionalInfoRevealed },
-                    { value: 'bodytype', label: 'Body Type', revealed: player.isBodyTypeRevealed },
-                    { value: 'health', label: 'Health', revealed: player.isHealthRevealed },
-                    { value: 'personality', label: 'Personality', revealed: player.isPersonalityRevealed }
+                    { value: 'gender', label: 'Gender', revealed: player.isGenderRevealed, val: player.gender },
+                    { value: 'age', label: 'Age', revealed: player.isAgeRevealed, val: player.age },
+                    { value: 'orientation', label: 'Orientation', revealed: player.isOrientationRevealed, val: player.orientation },
+                    { value: 'hobby', label: 'Hobby', revealed: player.isHobbyRevealed, val: player.hobby },
+                    { value: 'phobia', label: 'Phobia', revealed: player.isPhobiaRevealed, val: player.phobia },
+                    { value: 'luggage', label: 'Luggage', revealed: player.isLuggageRevealed, val: player.luggage },
+                    { value: 'additionalinfo', label: 'Additional Information', revealed: player.isAdditionalInfoRevealed, val: player.additionalInformation },
+                    { value: 'bodytype', label: 'Body Type', revealed: player.isBodyTypeRevealed, val: player.bodyType },
+                    { value: 'health', label: 'Health', revealed: player.isHealthRevealed, val: player.health },
+                    { value: 'personality', label: 'Personality', revealed: player.isPersonalityRevealed, val: player.personality }
                 ];
-                // Leave only unrevealed
+                // Оставляем только нераскрытые
                 characteristicSelect.innerHTML = '<option value="">Select characteristic</option>';
                 allCharacteristics.forEach(c => {
                     if (!c.revealed) {
                         const opt = document.createElement('option');
                         opt.value = c.value;
-                        opt.textContent = c.label;
+                        opt.textContent = `${c.label} - ${c.val !== undefined && c.val !== null && c.val !== '' ? c.val : 'нет данных'}`;
                         characteristicSelect.appendChild(opt);
                     }
                 });
@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         try {
             // Find player ID by name
-            const response = await fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}`);
+            const response = await fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}&currentNickname=${encodeURIComponent(playerName)}`);
             const data = await response.json();
             const player = data.data.players.find(p => p.nickname === playerName);
             
@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             // Find player IDs
-            const roomResponse = await fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}`);
+            const roomResponse = await fetch(`${API_CONFIG.BASE_URL}/api/Room/GetRoomInfo?roomId=${roomId}&currentNickname=${encodeURIComponent(playerNickname)}`);
             const roomData = await roomResponse.json();
             const voter = roomData.data.players.find(p => p.nickname === playerNickname);
             const target = roomData.data.players.find(p => p.nickname === targetPlayerName);

@@ -72,7 +72,7 @@ public class RoomService
 
     private readonly ApplicationDbContext _context;
     private readonly GameService _gameService;
-    private static readonly Random _random = new();
+    private readonly Random _random = new();
 
     public RoomService(ApplicationDbContext context, GameService gameService)
     {
@@ -169,7 +169,7 @@ public class RoomService
         return await JoinRoomAsync(room.Id, nickname);
     }
 
-    public async Task<RoomInfoDto?> GetRoomInfoAsync(int roomId)
+    public async Task<RoomInfoDto?> GetRoomInfoAsync(int roomId, string? currentNickname = null)
     {
         var room = await _context.GameRooms
             .Include(r => r.RoomPlayers)
@@ -185,21 +185,17 @@ public class RoomService
             Nickname = rp.Nickname,
             IsAlive = rp.IsAlive,
             IsWinner = rp.IsWinner,
-            
-            // Traits (only revealed ones)
-            Profession = rp.IsProfessionRevealed ? rp.Player.Profession : null,
-            Gender = rp.IsGenderRevealed ? rp.Player.Gender : null,
-            Age = rp.IsAgeRevealed ? rp.Player.Age : null,
-            Orientation = rp.IsOrientationRevealed ? rp.Player.Orientation : null,
-            Hobby = rp.IsHobbyRevealed ? rp.Player.Hobby : null,
-            Phobia = rp.IsPhobiaRevealed ? rp.Player.Phobia : null,
-            Luggage = rp.IsLuggageRevealed ? rp.Player.Luggage : null,
-            AdditionalInformation = rp.IsAdditionalInfoRevealed ? rp.Player.AdditionalInformation : null,
-            BodyType = rp.IsBodyTypeRevealed ? rp.Player.BodyType : null,
-            Health = rp.IsHealthRevealed ? rp.Player.Health : null,
-            Personality = rp.IsPersonalityRevealed ? rp.Player.Personalitie : null,
-            
-            // Reveal flags
+            Profession = (rp.IsProfessionRevealed || rp.Nickname == currentNickname) ? rp.Player.Profession : null,
+            Gender = (rp.IsGenderRevealed || rp.Nickname == currentNickname) ? rp.Player.Gender : null,
+            Age = (rp.IsAgeRevealed || rp.Nickname == currentNickname) ? rp.Player.Age : null,
+            Orientation = (rp.IsOrientationRevealed || rp.Nickname == currentNickname) ? rp.Player.Orientation : null,
+            Hobby = (rp.IsHobbyRevealed || rp.Nickname == currentNickname) ? rp.Player.Hobby : null,
+            Phobia = (rp.IsPhobiaRevealed || rp.Nickname == currentNickname) ? rp.Player.Phobia : null,
+            Luggage = (rp.IsLuggageRevealed || rp.Nickname == currentNickname) ? rp.Player.Luggage : null,
+            AdditionalInformation = (rp.IsAdditionalInfoRevealed || rp.Nickname == currentNickname) ? rp.Player.AdditionalInformation : null,
+            BodyType = (rp.IsBodyTypeRevealed || rp.Nickname == currentNickname) ? rp.Player.BodyType : null,
+            Health = (rp.IsHealthRevealed || rp.Nickname == currentNickname) ? rp.Player.Health : null,
+            Personality = (rp.IsPersonalityRevealed || rp.Nickname == currentNickname) ? rp.Player.Personalitie : null,
             IsProfessionRevealed = rp.IsProfessionRevealed,
             IsGenderRevealed = rp.IsGenderRevealed,
             IsAgeRevealed = rp.IsAgeRevealed,
