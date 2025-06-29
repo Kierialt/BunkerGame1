@@ -4,7 +4,7 @@ const API_CONFIG = {
     // BASE_URL: 'http://localhost:5138',
     
     // For network access with HTTPS (recommended)
-    BASE_URL: 'https://192.168.43.21:7258',
+    BASE_URL: 'http://localhost:5138',
    
     
     // For network access with HTTP (fallback if HTTPS doesn't work)
