@@ -24,13 +24,18 @@ async function getCharacter() {
 
         if (response.ok) {
             const data = await response.json();
-            displayCharacter(data.data);
-            setFlipCardHeight();
+            if (data && data.data) {
+                showCharacter(data.data);
+                setFlipCardHeight();
+            } else {
+                document.getElementById("characterCard").innerHTML = "<p>Ошибка: пустой ответ от сервера.</p>";
+            }
         } else {
-            document.getElementById("characterCard").innerHTML = "<p>Error while getting character.</p>";
+            const errorText = await response.text();
+            document.getElementById("characterCard").innerHTML = `<p>Error while getting character: ${errorText}</p>`;
         }
-    } catch {
-        document.getElementById("characterCard").innerHTML = "<p>Server unavailable.</p>";
+    } catch (e) {
+        document.getElementById("characterCard").innerHTML = `<p>Server unavailable.<br>${e}</p>`;
     }
 }
 
@@ -123,6 +128,7 @@ window.onload = function() {
 
     // Buttons
     document.getElementById("refreshBtn").onclick = async function() {
+        localStorage.removeItem("characterData");
         await getCharacter();
         // Keep card face down after refresh
         isFlipped = false;
