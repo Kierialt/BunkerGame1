@@ -1,51 +1,99 @@
 {
   "Files": [
     {
-      "Id": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 0.jpg",
-      "PackagePath": "staticwebassets\\images\\metro 0.jpg"
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/character.html",
+      "PackagePath": "staticwebassets/character.html"
     },
     {
-      "Id": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 1.jpg",
-      "PackagePath": "staticwebassets\\images\\metro 1.jpg"
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/character.js",
+      "PackagePath": "staticwebassets/character.js"
     },
     {
-      "Id": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 2.jpg",
-      "PackagePath": "staticwebassets\\images\\metro 2.jpg"
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/config.js",
+      "PackagePath": "staticwebassets/config.js"
     },
     {
-      "Id": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 3.jpg",
-      "PackagePath": "staticwebassets\\images\\metro 3.jpg"
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/asfalt-light.png",
+      "PackagePath": "staticwebassets/images/asfalt-light.png"
     },
     {
-      "Id": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/copy.svg",
+      "PackagePath": "staticwebassets/images/copy.svg"
     },
     {
-      "Id": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\script.js",
-      "PackagePath": "staticwebassets\\script.js"
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/facebook.svg",
+      "PackagePath": "staticwebassets/images/facebook.svg"
     },
     {
-      "Id": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\styles.css",
-      "PackagePath": "staticwebassets\\styles.css"
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/instagram.svg",
+      "PackagePath": "staticwebassets/images/instagram.svg"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BunkerGame.Frontend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/metro 0.jpg",
+      "PackagePath": "staticwebassets/images/metro 0.jpg"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/noise.png",
+      "PackagePath": "staticwebassets/images/noise.png"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/noise0.png",
+      "PackagePath": "staticwebassets/images/noise0.png"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/telegram.svg",
+      "PackagePath": "staticwebassets/images/telegram.svg"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/telegram2.svg",
+      "PackagePath": "staticwebassets/images/telegram2.svg"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/whatsapp.svg",
+      "PackagePath": "staticwebassets/images/whatsapp.svg"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/room.html",
+      "PackagePath": "staticwebassets/room.html"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/room.js",
+      "PackagePath": "staticwebassets/room.js"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/rules.html",
+      "PackagePath": "staticwebassets/rules.html"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/script.js",
+      "PackagePath": "staticwebassets/script.js"
+    },
+    {
+      "Id": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/styles.css",
+      "PackagePath": "staticwebassets/styles.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BunkerGame.Frontend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BunkerGame.Frontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BunkerGame.Frontend.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BunkerGame.Frontend.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.BunkerGame.Frontend.props",
       "PackagePath": "build\\BunkerGame.Frontend.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BunkerGame.Frontend.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BunkerGame.Frontend.props",
       "PackagePath": "buildMultiTargeting\\BunkerGame.Frontend.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BunkerGame.Frontend.props",
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BunkerGame.Frontend.props",
       "PackagePath": "buildTransitive\\BunkerGame.Frontend.props"
     }
   ],

@@ -161,7 +161,6 @@ Profession: ${data.profession}
 Gender: ${data.gender}
 Age: ${data.age}
 Orientation: ${data.orientation}
-Name: ${data.name ?? "???"}
 Health: ${data.health}
 Hobby: ${data.hobby}
 Phobia: ${data.phobia}

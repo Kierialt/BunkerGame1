@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Uelg0f3rCP0eD5cIMH/9+yfi4nKRAUpsHYPXypcORRk=",
+  "Hash": "DJ8WJ/krmp+rdtqbau8RtM+gxtvJ5NTOhVpKXyoVjwE=",
   "Source": "BunkerGame.Frontend",
   "BasePath": "_content/BunkerGame.Frontend",
   "Mode": "Default",
@@ -8,19 +8,166 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BunkerGame.Frontend\\wwwroot",
+      "Name": "BunkerGame.Frontend/wwwroot",
       "Source": "BunkerGame.Frontend",
-      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
       "BasePath": "_content/BunkerGame.Frontend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 0.jpg",
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/character.html",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "character#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5rn9vhcpny",
+      "Integrity": "f7wBIlCQf0if0GU03+OqwgnDpCY2tfZBA5M7aNx2Drc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/character.html"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/character.js",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "character#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "du2d6ss6c6",
+      "Integrity": "W7pj6MK0Q26/yLWcvZEbmg/YrojKUDktInHnzjXb4xY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/character.js"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/config.js",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "config#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6x1o1tkm4l",
+      "Integrity": "RuuxaJPPVTO//3kxUUDfdydLzOVg0rzjBlLnW+B4cgQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/config.js"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/asfalt-light.png",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "images/asfalt-light#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ew9rntsgh",
+      "Integrity": "PZM3/nTOr6RmUfkvsQ5IbRA8yySL2OnYrxoq46FgqP0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/asfalt-light.png"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/copy.svg",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "images/copy#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gt2yuujjkm",
+      "Integrity": "xEgBrtyOZdpT8odXGvGuwb6w1+f9EQ7D8YrivlLD3oI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/copy.svg"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/facebook.svg",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "images/facebook#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "67v5877tvu",
+      "Integrity": "MmGZ+p4CF7A8PG5cazUMR6FLpL/r+eUQswXqKASW9LI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/facebook.svg"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/instagram.svg",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "images/instagram#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sky3nkcw77",
+      "Integrity": "NCdrfEFB1dOrPS4lyhPPS4Bq97mSp7D17hgPmjyXg8s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/instagram.svg"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/metro 0.jpg",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
       "BasePath": "_content/BunkerGame.Frontend",
       "RelativePath": "images/metro 0#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -35,15 +182,15 @@
       "Integrity": "eqce5bj4RfTqEN/4XFgxBxZkZVdkNEwIKyY6XwfSiow=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\metro 0.jpg"
+      "OriginalItemSpec": "wwwroot/images/metro 0.jpg"
     },
     {
-      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 1.jpg",
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/noise.png",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
       "BasePath": "_content/BunkerGame.Frontend",
-      "RelativePath": "images/metro 1#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/noise#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,19 +199,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "l4s7uydzz4",
-      "Integrity": "2z+mKKZBWKK+lywisRW13O6drqZ+eJJ3yn0Ew6t0Lj8=",
+      "Fingerprint": "j1sug721nu",
+      "Integrity": "iSp6HsQxPPSJ2GEn/kYvj4K9yoPjQ08+RK4UpcpHDOU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\metro 1.jpg"
+      "OriginalItemSpec": "wwwroot/images/noise.png"
     },
     {
-      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 2.jpg",
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/noise0.png",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
       "BasePath": "_content/BunkerGame.Frontend",
-      "RelativePath": "images/metro 2#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/noise0#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -73,19 +220,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zsfwuz548t",
-      "Integrity": "/U3zB7N4t1/entWRnC8955yOLWfPWLWAtT+73NEtA4w=",
+      "Fingerprint": "mf5i0xdkqd",
+      "Integrity": "AuBK3wiAz+sK4xGDgpOtAZ+WGeZSdFnersbDvFZaTbM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\metro 2.jpg"
+      "OriginalItemSpec": "wwwroot/images/noise0.png"
     },
     {
-      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 3.jpg",
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/telegram.svg",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
       "BasePath": "_content/BunkerGame.Frontend",
-      "RelativePath": "images/metro 3#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/telegram#[.{fingerprint}]?.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -94,17 +241,59 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "j7xe9v3mpt",
-      "Integrity": "YSsxfz1Pm+uo8HAhopbhxtNx3YjTtd/lR++uRrui68Y=",
+      "Fingerprint": "41ydgw3bkp",
+      "Integrity": "eJIl5OjyDEfuqcEQJH5j8V0fgrhUbKCq2UbSc0HM1dA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\metro 3.jpg"
+      "OriginalItemSpec": "wwwroot/images/telegram.svg"
     },
     {
-      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\index.html",
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/telegram2.svg",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "images/telegram2#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cads36lbv0",
+      "Integrity": "vALnLSb1cWGYm3JBlV9ugN1OHGOGgq7BUUz/iscUnAk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/telegram2.svg"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/whatsapp.svg",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "images/whatsapp#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h141v9134g",
+      "Integrity": "SyKn38JG442kKC2dWw0R/XEXXDwB9xf/gcMlmQ9Yo9s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/whatsapp.svg"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/index.html",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
       "BasePath": "_content/BunkerGame.Frontend",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -115,17 +304,80 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "57tv7co68j",
-      "Integrity": "b0Ojl3BmCwjh83ndGsaz1ZDT5QJesKMpYyYXAUtY1IA=",
+      "Fingerprint": "kkyp8gybrx",
+      "Integrity": "vFxqC5lStiqsMouY1ctyNQTIyyl/dF0tz6x9YkQHje8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
+      "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\script.js",
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/room.html",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "room#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jkr88xz0dt",
+      "Integrity": "k5kyA/ZmLTRtNA8KWq3q/M5kDhZMjpUrWE8yfEDcwCg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/room.html"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/room.js",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "room#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oaowwfewo7",
+      "Integrity": "AN+JdJJjyac8G2Aqc4cH8RGxZ1+x+Z7Or43HJ2SJ9mc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/room.js"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/rules.html",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
+      "BasePath": "_content/BunkerGame.Frontend",
+      "RelativePath": "rules#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gvn7fc4eil",
+      "Integrity": "ZKzgVuSycQn50UxmDjUijNZYA6qj+N9sjlCg6iQm/sw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/rules.html"
+    },
+    {
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/script.js",
+      "SourceId": "BunkerGame.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
       "BasePath": "_content/BunkerGame.Frontend",
       "RelativePath": "script#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -136,17 +388,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xp6ubgojbo",
-      "Integrity": "hejM/Sd1O95hKvjzt4WpQRvjC/Bb9oVHjAnv9LaVpyg=",
+      "Fingerprint": "6tzsh46xre",
+      "Integrity": "SoWmM6QEZHAYvEwZbEX5lmiLAOVN7LTqZ9PTEXASrWo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\script.js"
+      "OriginalItemSpec": "wwwroot/script.js"
     },
     {
-      "Identity": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\styles.css",
+      "Identity": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/styles.css",
       "SourceId": "BunkerGame.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\",
+      "ContentRoot": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/",
       "BasePath": "_content/BunkerGame.Frontend",
       "RelativePath": "styles#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -157,17 +409,591 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cxhqua4kua",
-      "Integrity": "wJxCtG1r1hvAZWJkZ9hOGqGh9jbpPnvJAdv3zczFn5w=",
+      "Fingerprint": "vh2dja56rm",
+      "Integrity": "43ieUz5GzzpjGxGUx84+AcRMX3swjA50UX0A+sVTuS4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\styles.css"
+      "OriginalItemSpec": "wwwroot/styles.css"
     }
   ],
   "Endpoints": [
     {
+      "Route": "character.5rn9vhcpny.html",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/character.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f7wBIlCQf0if0GU03+OqwgnDpCY2tfZBA5M7aNx2Drc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5rn9vhcpny"
+        },
+        {
+          "Name": "label",
+          "Value": "character.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f7wBIlCQf0if0GU03+OqwgnDpCY2tfZBA5M7aNx2Drc="
+        }
+      ]
+    },
+    {
+      "Route": "character.du2d6ss6c6.js",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/character.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W7pj6MK0Q26/yLWcvZEbmg/YrojKUDktInHnzjXb4xY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:32:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "du2d6ss6c6"
+        },
+        {
+          "Name": "label",
+          "Value": "character.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W7pj6MK0Q26/yLWcvZEbmg/YrojKUDktInHnzjXb4xY="
+        }
+      ]
+    },
+    {
+      "Route": "character.html",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/character.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f7wBIlCQf0if0GU03+OqwgnDpCY2tfZBA5M7aNx2Drc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f7wBIlCQf0if0GU03+OqwgnDpCY2tfZBA5M7aNx2Drc="
+        }
+      ]
+    },
+    {
+      "Route": "character.js",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/character.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W7pj6MK0Q26/yLWcvZEbmg/YrojKUDktInHnzjXb4xY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:32:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W7pj6MK0Q26/yLWcvZEbmg/YrojKUDktInHnzjXb4xY="
+        }
+      ]
+    },
+    {
+      "Route": "config.6x1o1tkm4l.js",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/config.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "527"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RuuxaJPPVTO//3kxUUDfdydLzOVg0rzjBlLnW+B4cgQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6x1o1tkm4l"
+        },
+        {
+          "Name": "label",
+          "Value": "config.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RuuxaJPPVTO//3kxUUDfdydLzOVg0rzjBlLnW+B4cgQ="
+        }
+      ]
+    },
+    {
+      "Route": "config.js",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/config.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "527"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RuuxaJPPVTO//3kxUUDfdydLzOVg0rzjBlLnW+B4cgQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RuuxaJPPVTO//3kxUUDfdydLzOVg0rzjBlLnW+B4cgQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/asfalt-light.5ew9rntsgh.png",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/asfalt-light.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PZM3/nTOr6RmUfkvsQ5IbRA8yySL2OnYrxoq46FgqP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ew9rntsgh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/asfalt-light.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PZM3/nTOr6RmUfkvsQ5IbRA8yySL2OnYrxoq46FgqP0="
+        }
+      ]
+    },
+    {
+      "Route": "images/asfalt-light.png",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/asfalt-light.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PZM3/nTOr6RmUfkvsQ5IbRA8yySL2OnYrxoq46FgqP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PZM3/nTOr6RmUfkvsQ5IbRA8yySL2OnYrxoq46FgqP0="
+        }
+      ]
+    },
+    {
+      "Route": "images/copy.gt2yuujjkm.svg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/copy.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xEgBrtyOZdpT8odXGvGuwb6w1+f9EQ7D8YrivlLD3oI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gt2yuujjkm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/copy.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xEgBrtyOZdpT8odXGvGuwb6w1+f9EQ7D8YrivlLD3oI="
+        }
+      ]
+    },
+    {
+      "Route": "images/copy.svg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/copy.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xEgBrtyOZdpT8odXGvGuwb6w1+f9EQ7D8YrivlLD3oI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xEgBrtyOZdpT8odXGvGuwb6w1+f9EQ7D8YrivlLD3oI="
+        }
+      ]
+    },
+    {
+      "Route": "images/facebook.67v5877tvu.svg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/facebook.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MmGZ+p4CF7A8PG5cazUMR6FLpL/r+eUQswXqKASW9LI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "67v5877tvu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/facebook.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MmGZ+p4CF7A8PG5cazUMR6FLpL/r+eUQswXqKASW9LI="
+        }
+      ]
+    },
+    {
+      "Route": "images/facebook.svg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/facebook.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MmGZ+p4CF7A8PG5cazUMR6FLpL/r+eUQswXqKASW9LI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MmGZ+p4CF7A8PG5cazUMR6FLpL/r+eUQswXqKASW9LI="
+        }
+      ]
+    },
+    {
+      "Route": "images/instagram.sky3nkcw77.svg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/instagram.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2108"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NCdrfEFB1dOrPS4lyhPPS4Bq97mSp7D17hgPmjyXg8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sky3nkcw77"
+        },
+        {
+          "Name": "label",
+          "Value": "images/instagram.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NCdrfEFB1dOrPS4lyhPPS4Bq97mSp7D17hgPmjyXg8s="
+        }
+      ]
+    },
+    {
+      "Route": "images/instagram.svg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/instagram.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2108"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NCdrfEFB1dOrPS4lyhPPS4Bq97mSp7D17hgPmjyXg8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NCdrfEFB1dOrPS4lyhPPS4Bq97mSp7D17hgPmjyXg8s="
+        }
+      ]
+    },
+    {
       "Route": "images/metro 0.jpg",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 0.jpg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/metro 0.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -188,7 +1014,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 16:58:38 GMT"
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -204,7 +1030,7 @@
     },
     {
       "Route": "images/metro 0.yxs8wtqnra.jpg",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 0.jpg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/metro 0.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -225,7 +1051,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 16:58:38 GMT"
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -248,8 +1074,8 @@
       ]
     },
     {
-      "Route": "images/metro 1.jpg",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 1.jpg",
+      "Route": "images/noise.j1sug721nu.png",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/noise.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -258,56 +1084,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9483498"
+          "Value": "647"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"2z+mKKZBWKK+lywisRW13O6drqZ+eJJ3yn0Ew6t0Lj8=\""
+          "Value": "\"iSp6HsQxPPSJ2GEn/kYvj4K9yoPjQ08+RK4UpcpHDOU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 16:59:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2z+mKKZBWKK+lywisRW13O6drqZ+eJJ3yn0Ew6t0Lj8="
-        }
-      ]
-    },
-    {
-      "Route": "images/metro 1.l4s7uydzz4.jpg",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9483498"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2z+mKKZBWKK+lywisRW13O6drqZ+eJJ3yn0Ew6t0Lj8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 16:59:11 GMT"
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -317,21 +1106,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "l4s7uydzz4"
+          "Value": "j1sug721nu"
         },
         {
           "Name": "label",
-          "Value": "images/metro 1.jpg"
+          "Value": "images/noise.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2z+mKKZBWKK+lywisRW13O6drqZ+eJJ3yn0Ew6t0Lj8="
+          "Value": "sha256-iSp6HsQxPPSJ2GEn/kYvj4K9yoPjQ08+RK4UpcpHDOU="
         }
       ]
     },
     {
-      "Route": "images/metro 2.jpg",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 2.jpg",
+      "Route": "images/noise.png",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/noise.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -340,19 +1129,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5089029"
+          "Value": "647"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"/U3zB7N4t1/entWRnC8955yOLWfPWLWAtT+73NEtA4w=\""
+          "Value": "\"iSp6HsQxPPSJ2GEn/kYvj4K9yoPjQ08+RK4UpcpHDOU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 16:59:40 GMT"
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -362,13 +1151,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/U3zB7N4t1/entWRnC8955yOLWfPWLWAtT+73NEtA4w="
+          "Value": "sha256-iSp6HsQxPPSJ2GEn/kYvj4K9yoPjQ08+RK4UpcpHDOU="
         }
       ]
     },
     {
-      "Route": "images/metro 2.zsfwuz548t.jpg",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 2.jpg",
+      "Route": "images/noise0.mf5i0xdkqd.png",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/noise0.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -377,19 +1166,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5089029"
+          "Value": "60024"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"/U3zB7N4t1/entWRnC8955yOLWfPWLWAtT+73NEtA4w=\""
+          "Value": "\"AuBK3wiAz+sK4xGDgpOtAZ+WGeZSdFnersbDvFZaTbM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 16:59:40 GMT"
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -399,21 +1188,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zsfwuz548t"
+          "Value": "mf5i0xdkqd"
         },
         {
           "Name": "label",
-          "Value": "images/metro 2.jpg"
+          "Value": "images/noise0.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/U3zB7N4t1/entWRnC8955yOLWfPWLWAtT+73NEtA4w="
+          "Value": "sha256-AuBK3wiAz+sK4xGDgpOtAZ+WGeZSdFnersbDvFZaTbM="
         }
       ]
     },
     {
-      "Route": "images/metro 3.j7xe9v3mpt.jpg",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 3.jpg",
+      "Route": "images/noise0.png",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/noise0.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -422,64 +1211,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8400985"
+          "Value": "60024"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"YSsxfz1Pm+uo8HAhopbhxtNx3YjTtd/lR++uRrui68Y=\""
+          "Value": "\"AuBK3wiAz+sK4xGDgpOtAZ+WGeZSdFnersbDvFZaTbM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 16:57:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "j7xe9v3mpt"
-        },
-        {
-          "Name": "label",
-          "Value": "images/metro 3.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-YSsxfz1Pm+uo8HAhopbhxtNx3YjTtd/lR++uRrui68Y="
-        }
-      ]
-    },
-    {
-      "Route": "images/metro 3.jpg",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\images\\metro 3.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8400985"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"YSsxfz1Pm+uo8HAhopbhxtNx3YjTtd/lR++uRrui68Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 16:57:58 GMT"
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -489,13 +1233,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YSsxfz1Pm+uo8HAhopbhxtNx3YjTtd/lR++uRrui68Y="
+          "Value": "sha256-AuBK3wiAz+sK4xGDgpOtAZ+WGeZSdFnersbDvFZaTbM="
         }
       ]
     },
     {
-      "Route": "index.57tv7co68j.html",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\index.html",
+      "Route": "images/telegram.41ydgw3bkp.svg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/telegram.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -504,7 +1248,253 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "1027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eJIl5OjyDEfuqcEQJH5j8V0fgrhUbKCq2UbSc0HM1dA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "41ydgw3bkp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/telegram.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eJIl5OjyDEfuqcEQJH5j8V0fgrhUbKCq2UbSc0HM1dA="
+        }
+      ]
+    },
+    {
+      "Route": "images/telegram.svg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/telegram.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eJIl5OjyDEfuqcEQJH5j8V0fgrhUbKCq2UbSc0HM1dA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eJIl5OjyDEfuqcEQJH5j8V0fgrhUbKCq2UbSc0HM1dA="
+        }
+      ]
+    },
+    {
+      "Route": "images/telegram2.cads36lbv0.svg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/telegram2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vALnLSb1cWGYm3JBlV9ugN1OHGOGgq7BUUz/iscUnAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cads36lbv0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/telegram2.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vALnLSb1cWGYm3JBlV9ugN1OHGOGgq7BUUz/iscUnAk="
+        }
+      ]
+    },
+    {
+      "Route": "images/telegram2.svg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/telegram2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vALnLSb1cWGYm3JBlV9ugN1OHGOGgq7BUUz/iscUnAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vALnLSb1cWGYm3JBlV9ugN1OHGOGgq7BUUz/iscUnAk="
+        }
+      ]
+    },
+    {
+      "Route": "images/whatsapp.h141v9134g.svg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/whatsapp.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SyKn38JG442kKC2dWw0R/XEXXDwB9xf/gcMlmQ9Yo9s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h141v9134g"
+        },
+        {
+          "Name": "label",
+          "Value": "images/whatsapp.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SyKn38JG442kKC2dWw0R/XEXXDwB9xf/gcMlmQ9Yo9s="
+        }
+      ]
+    },
+    {
+      "Route": "images/whatsapp.svg",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/images/whatsapp.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SyKn38JG442kKC2dWw0R/XEXXDwB9xf/gcMlmQ9Yo9s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SyKn38JG442kKC2dWw0R/XEXXDwB9xf/gcMlmQ9Yo9s="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5491"
         },
         {
           "Name": "Content-Type",
@@ -512,11 +1502,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"b0Ojl3BmCwjh83ndGsaz1ZDT5QJesKMpYyYXAUtY1IA=\""
+          "Value": "\"vFxqC5lStiqsMouY1ctyNQTIyyl/dF0tz6x9YkQHje8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 16:40:31 GMT"
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vFxqC5lStiqsMouY1ctyNQTIyyl/dF0tz6x9YkQHje8="
+        }
+      ]
+    },
+    {
+      "Route": "index.kkyp8gybrx.html",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5491"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vFxqC5lStiqsMouY1ctyNQTIyyl/dF0tz6x9YkQHje8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -526,7 +1553,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "57tv7co68j"
+          "Value": "kkyp8gybrx"
         },
         {
           "Name": "label",
@@ -534,13 +1561,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-b0Ojl3BmCwjh83ndGsaz1ZDT5QJesKMpYyYXAUtY1IA="
+          "Value": "sha256-vFxqC5lStiqsMouY1ctyNQTIyyl/dF0tz6x9YkQHje8="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\index.html",
+      "Route": "room.html",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/room.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -549,7 +1576,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "540"
+          "Value": "3658"
         },
         {
           "Name": "Content-Type",
@@ -557,11 +1584,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"b0Ojl3BmCwjh83ndGsaz1ZDT5QJesKMpYyYXAUtY1IA=\""
+          "Value": "\"k5kyA/ZmLTRtNA8KWq3q/M5kDhZMjpUrWE8yfEDcwCg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 16:40:31 GMT"
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -571,13 +1598,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-b0Ojl3BmCwjh83ndGsaz1ZDT5QJesKMpYyYXAUtY1IA="
+          "Value": "sha256-k5kyA/ZmLTRtNA8KWq3q/M5kDhZMjpUrWE8yfEDcwCg="
         }
       ]
     },
     {
-      "Route": "script.js",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\script.js",
+      "Route": "room.jkr88xz0dt.html",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/room.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -586,56 +1613,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2105"
+          "Value": "3658"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "text/html"
         },
         {
           "Name": "ETag",
-          "Value": "\"hejM/Sd1O95hKvjzt4WpQRvjC/Bb9oVHjAnv9LaVpyg=\""
+          "Value": "\"k5kyA/ZmLTRtNA8KWq3q/M5kDhZMjpUrWE8yfEDcwCg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 16:09:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hejM/Sd1O95hKvjzt4WpQRvjC/Bb9oVHjAnv9LaVpyg="
-        }
-      ]
-    },
-    {
-      "Route": "script.xp6ubgojbo.js",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\script.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2105"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hejM/Sd1O95hKvjzt4WpQRvjC/Bb9oVHjAnv9LaVpyg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 16:09:39 GMT"
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -645,7 +1635,216 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xp6ubgojbo"
+          "Value": "jkr88xz0dt"
+        },
+        {
+          "Name": "label",
+          "Value": "room.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k5kyA/ZmLTRtNA8KWq3q/M5kDhZMjpUrWE8yfEDcwCg="
+        }
+      ]
+    },
+    {
+      "Route": "room.js",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/room.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AN+JdJJjyac8G2Aqc4cH8RGxZ1+x+Z7Or43HJ2SJ9mc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AN+JdJJjyac8G2Aqc4cH8RGxZ1+x+Z7Or43HJ2SJ9mc="
+        }
+      ]
+    },
+    {
+      "Route": "room.oaowwfewo7.js",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/room.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AN+JdJJjyac8G2Aqc4cH8RGxZ1+x+Z7Or43HJ2SJ9mc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oaowwfewo7"
+        },
+        {
+          "Name": "label",
+          "Value": "room.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AN+JdJJjyac8G2Aqc4cH8RGxZ1+x+Z7Or43HJ2SJ9mc="
+        }
+      ]
+    },
+    {
+      "Route": "rules.gvn7fc4eil.html",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/rules.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZKzgVuSycQn50UxmDjUijNZYA6qj+N9sjlCg6iQm/sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gvn7fc4eil"
+        },
+        {
+          "Name": "label",
+          "Value": "rules.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZKzgVuSycQn50UxmDjUijNZYA6qj+N9sjlCg6iQm/sw="
+        }
+      ]
+    },
+    {
+      "Route": "rules.html",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/rules.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZKzgVuSycQn50UxmDjUijNZYA6qj+N9sjlCg6iQm/sw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZKzgVuSycQn50UxmDjUijNZYA6qj+N9sjlCg6iQm/sw="
+        }
+      ]
+    },
+    {
+      "Route": "script.6tzsh46xre.js",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12527"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SoWmM6QEZHAYvEwZbEX5lmiLAOVN7LTqZ9PTEXASrWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6tzsh46xre"
         },
         {
           "Name": "label",
@@ -653,13 +1852,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hejM/Sd1O95hKvjzt4WpQRvjC/Bb9oVHjAnv9LaVpyg="
+          "Value": "sha256-SoWmM6QEZHAYvEwZbEX5lmiLAOVN7LTqZ9PTEXASrWo="
         }
       ]
     },
     {
-      "Route": "styles.css",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\styles.css",
+      "Route": "script.js",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/script.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -668,19 +1867,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1315"
+          "Value": "12527"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"wJxCtG1r1hvAZWJkZ9hOGqGh9jbpPnvJAdv3zczFn5w=\""
+          "Value": "\"SoWmM6QEZHAYvEwZbEX5lmiLAOVN7LTqZ9PTEXASrWo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 18:15:18 GMT"
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -690,13 +1889,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wJxCtG1r1hvAZWJkZ9hOGqGh9jbpPnvJAdv3zczFn5w="
+          "Value": "sha256-SoWmM6QEZHAYvEwZbEX5lmiLAOVN7LTqZ9PTEXASrWo="
         }
       ]
     },
     {
-      "Route": "styles.cxhqua4kua.css",
-      "AssetFile": "D:\\c#\\BunkerGame1\\BunkerGame1\\BunkerGame.Frontend\\wwwroot\\styles.css",
+      "Route": "styles.css",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -705,7 +1904,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1315"
+          "Value": "25727"
         },
         {
           "Name": "Content-Type",
@@ -713,11 +1912,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wJxCtG1r1hvAZWJkZ9hOGqGh9jbpPnvJAdv3zczFn5w=\""
+          "Value": "\"43ieUz5GzzpjGxGUx84+AcRMX3swjA50UX0A+sVTuS4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 18:15:18 GMT"
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-43ieUz5GzzpjGxGUx84+AcRMX3swjA50UX0A+sVTuS4="
+        }
+      ]
+    },
+    {
+      "Route": "styles.vh2dja56rm.css",
+      "AssetFile": "/Users/eugene/Desktop/c#/Новая папка/BunkerGame1/BunkerGame.Frontend/wwwroot/styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"43ieUz5GzzpjGxGUx84+AcRMX3swjA50UX0A+sVTuS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 12:12:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -727,7 +1963,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "cxhqua4kua"
+          "Value": "vh2dja56rm"
         },
         {
           "Name": "label",
@@ -735,7 +1971,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wJxCtG1r1hvAZWJkZ9hOGqGh9jbpPnvJAdv3zczFn5w="
+          "Value": "sha256-43ieUz5GzzpjGxGUx84+AcRMX3swjA50UX0A+sVTuS4="
         }
       ]
     }

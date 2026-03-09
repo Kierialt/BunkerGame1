@@ -1,88 +1,232 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/character.5rn9vhcpny.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\character.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5rn9vhcpny"},{"Name":"integrity","Value":"sha256-f7wBIlCQf0if0GU03\u002BOqwgnDpCY2tfZBA5M7aNx2Drc="},{"Name":"label","Value":"_content/BunkerGame.Frontend/character.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2708"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022f7wBIlCQf0if0GU03\u002BOqwgnDpCY2tfZBA5M7aNx2Drc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/character.du2d6ss6c6.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\character.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"du2d6ss6c6"},{"Name":"integrity","Value":"sha256-W7pj6MK0Q26/yLWcvZEbmg/YrojKUDktInHnzjXb4xY="},{"Name":"label","Value":"_content/BunkerGame.Frontend/character.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7385"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022W7pj6MK0Q26/yLWcvZEbmg/YrojKUDktInHnzjXb4xY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:32:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/character.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\character.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-f7wBIlCQf0if0GU03\u002BOqwgnDpCY2tfZBA5M7aNx2Drc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2708"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022f7wBIlCQf0if0GU03\u002BOqwgnDpCY2tfZBA5M7aNx2Drc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/character.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\character.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-W7pj6MK0Q26/yLWcvZEbmg/YrojKUDktInHnzjXb4xY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7385"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022W7pj6MK0Q26/yLWcvZEbmg/YrojKUDktInHnzjXb4xY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:32:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/config.6x1o1tkm4l.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\config.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6x1o1tkm4l"},{"Name":"integrity","Value":"sha256-RuuxaJPPVTO//3kxUUDfdydLzOVg0rzjBlLnW\u002BB4cgQ="},{"Name":"label","Value":"_content/BunkerGame.Frontend/config.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"527"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022RuuxaJPPVTO//3kxUUDfdydLzOVg0rzjBlLnW\u002BB4cgQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/config.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\config.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RuuxaJPPVTO//3kxUUDfdydLzOVg0rzjBlLnW\u002BB4cgQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"527"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022RuuxaJPPVTO//3kxUUDfdydLzOVg0rzjBlLnW\u002BB4cgQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/asfalt-light.5ew9rntsgh.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\asfalt-light.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5ew9rntsgh"},{"Name":"integrity","Value":"sha256-PZM3/nTOr6RmUfkvsQ5IbRA8yySL2OnYrxoq46FgqP0="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/asfalt-light.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20845"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PZM3/nTOr6RmUfkvsQ5IbRA8yySL2OnYrxoq46FgqP0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/asfalt-light.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\asfalt-light.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PZM3/nTOr6RmUfkvsQ5IbRA8yySL2OnYrxoq46FgqP0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20845"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PZM3/nTOr6RmUfkvsQ5IbRA8yySL2OnYrxoq46FgqP0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/copy.gt2yuujjkm.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\copy.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gt2yuujjkm"},{"Name":"integrity","Value":"sha256-xEgBrtyOZdpT8odXGvGuwb6w1\u002Bf9EQ7D8YrivlLD3oI="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/copy.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"498"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022xEgBrtyOZdpT8odXGvGuwb6w1\u002Bf9EQ7D8YrivlLD3oI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/copy.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\copy.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xEgBrtyOZdpT8odXGvGuwb6w1\u002Bf9EQ7D8YrivlLD3oI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"498"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022xEgBrtyOZdpT8odXGvGuwb6w1\u002Bf9EQ7D8YrivlLD3oI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/facebook.67v5877tvu.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\facebook.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"67v5877tvu"},{"Name":"integrity","Value":"sha256-MmGZ\u002Bp4CF7A8PG5cazUMR6FLpL/r\u002BeUQswXqKASW9LI="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/facebook.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"642"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022MmGZ\u002Bp4CF7A8PG5cazUMR6FLpL/r\u002BeUQswXqKASW9LI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/facebook.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\facebook.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MmGZ\u002Bp4CF7A8PG5cazUMR6FLpL/r\u002BeUQswXqKASW9LI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"642"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022MmGZ\u002Bp4CF7A8PG5cazUMR6FLpL/r\u002BeUQswXqKASW9LI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/instagram.sky3nkcw77.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\instagram.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sky3nkcw77"},{"Name":"integrity","Value":"sha256-NCdrfEFB1dOrPS4lyhPPS4Bq97mSp7D17hgPmjyXg8s="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/instagram.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2108"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022NCdrfEFB1dOrPS4lyhPPS4Bq97mSp7D17hgPmjyXg8s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/instagram.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\instagram.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NCdrfEFB1dOrPS4lyhPPS4Bq97mSp7D17hgPmjyXg8s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2108"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022NCdrfEFB1dOrPS4lyhPPS4Bq97mSp7D17hgPmjyXg8s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/metro 0.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\metro 0.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eqce5bj4RfTqEN/4XFgxBxZkZVdkNEwIKyY6XwfSiow="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8983641"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022eqce5bj4RfTqEN/4XFgxBxZkZVdkNEwIKyY6XwfSiow=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 16:58:38 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8983641"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022eqce5bj4RfTqEN/4XFgxBxZkZVdkNEwIKyY6XwfSiow=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/metro 0.yxs8wtqnra.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\metro 0.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yxs8wtqnra"},{"Name":"integrity","Value":"sha256-eqce5bj4RfTqEN/4XFgxBxZkZVdkNEwIKyY6XwfSiow="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/metro 0.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8983641"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022eqce5bj4RfTqEN/4XFgxBxZkZVdkNEwIKyY6XwfSiow=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 16:58:38 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8983641"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022eqce5bj4RfTqEN/4XFgxBxZkZVdkNEwIKyY6XwfSiow=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/metro 1.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\metro 1.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/noise.j1sug721nu.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\noise.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2z\u002BmKKZBWKK\u002BlywisRW13O6drqZ\u002BeJJ3yn0Ew6t0Lj8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9483498"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222z\u002BmKKZBWKK\u002BlywisRW13O6drqZ\u002BeJJ3yn0Ew6t0Lj8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 16:59:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j1sug721nu"},{"Name":"integrity","Value":"sha256-iSp6HsQxPPSJ2GEn/kYvj4K9yoPjQ08\u002BRK4UpcpHDOU="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/noise.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"647"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022iSp6HsQxPPSJ2GEn/kYvj4K9yoPjQ08\u002BRK4UpcpHDOU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/metro 1.l4s7uydzz4.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\metro 1.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/noise.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\noise.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l4s7uydzz4"},{"Name":"integrity","Value":"sha256-2z\u002BmKKZBWKK\u002BlywisRW13O6drqZ\u002BeJJ3yn0Ew6t0Lj8="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/metro 1.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9483498"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222z\u002BmKKZBWKK\u002BlywisRW13O6drqZ\u002BeJJ3yn0Ew6t0Lj8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 16:59:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iSp6HsQxPPSJ2GEn/kYvj4K9yoPjQ08\u002BRK4UpcpHDOU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"647"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022iSp6HsQxPPSJ2GEn/kYvj4K9yoPjQ08\u002BRK4UpcpHDOU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/metro 2.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\metro 2.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/noise0.mf5i0xdkqd.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\noise0.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/U3zB7N4t1/entWRnC8955yOLWfPWLWAtT\u002B73NEtA4w="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5089029"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/U3zB7N4t1/entWRnC8955yOLWfPWLWAtT\u002B73NEtA4w=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 16:59:40 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mf5i0xdkqd"},{"Name":"integrity","Value":"sha256-AuBK3wiAz\u002BsK4xGDgpOtAZ\u002BWGeZSdFnersbDvFZaTbM="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/noise0.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"60024"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022AuBK3wiAz\u002BsK4xGDgpOtAZ\u002BWGeZSdFnersbDvFZaTbM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/metro 2.zsfwuz548t.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\metro 2.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/noise0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\noise0.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zsfwuz548t"},{"Name":"integrity","Value":"sha256-/U3zB7N4t1/entWRnC8955yOLWfPWLWAtT\u002B73NEtA4w="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/metro 2.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5089029"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/U3zB7N4t1/entWRnC8955yOLWfPWLWAtT\u002B73NEtA4w=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 16:59:40 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AuBK3wiAz\u002BsK4xGDgpOtAZ\u002BWGeZSdFnersbDvFZaTbM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"60024"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022AuBK3wiAz\u002BsK4xGDgpOtAZ\u002BWGeZSdFnersbDvFZaTbM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/metro 3.j7xe9v3mpt.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\metro 3.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/telegram.41ydgw3bkp.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\telegram.svg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j7xe9v3mpt"},{"Name":"integrity","Value":"sha256-YSsxfz1Pm\u002Buo8HAhopbhxtNx3YjTtd/lR\u002B\u002BuRrui68Y="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/metro 3.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8400985"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YSsxfz1Pm\u002Buo8HAhopbhxtNx3YjTtd/lR\u002B\u002BuRrui68Y=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 16:57:58 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"41ydgw3bkp"},{"Name":"integrity","Value":"sha256-eJIl5OjyDEfuqcEQJH5j8V0fgrhUbKCq2UbSc0HM1dA="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/telegram.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1027"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022eJIl5OjyDEfuqcEQJH5j8V0fgrhUbKCq2UbSc0HM1dA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/metro 3.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\metro 3.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/telegram.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\telegram.svg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YSsxfz1Pm\u002Buo8HAhopbhxtNx3YjTtd/lR\u002B\u002BuRrui68Y="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8400985"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YSsxfz1Pm\u002Buo8HAhopbhxtNx3YjTtd/lR\u002B\u002BuRrui68Y=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 16:57:58 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eJIl5OjyDEfuqcEQJH5j8V0fgrhUbKCq2UbSc0HM1dA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1027"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022eJIl5OjyDEfuqcEQJH5j8V0fgrhUbKCq2UbSc0HM1dA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/index.57tv7co68j.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/telegram2.cads36lbv0.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\telegram2.svg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"57tv7co68j"},{"Name":"integrity","Value":"sha256-b0Ojl3BmCwjh83ndGsaz1ZDT5QJesKMpYyYXAUtY1IA="},{"Name":"label","Value":"_content/BunkerGame.Frontend/index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"540"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022b0Ojl3BmCwjh83ndGsaz1ZDT5QJesKMpYyYXAUtY1IA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 16:40:31 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cads36lbv0"},{"Name":"integrity","Value":"sha256-vALnLSb1cWGYm3JBlV9ugN1OHGOGgq7BUUz/iscUnAk="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/telegram2.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1510"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022vALnLSb1cWGYm3JBlV9ugN1OHGOGgq7BUUz/iscUnAk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/telegram2.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\telegram2.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vALnLSb1cWGYm3JBlV9ugN1OHGOGgq7BUUz/iscUnAk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1510"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022vALnLSb1cWGYm3JBlV9ugN1OHGOGgq7BUUz/iscUnAk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/whatsapp.h141v9134g.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\whatsapp.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h141v9134g"},{"Name":"integrity","Value":"sha256-SyKn38JG442kKC2dWw0R/XEXXDwB9xf/gcMlmQ9Yo9s="},{"Name":"label","Value":"_content/BunkerGame.Frontend/images/whatsapp.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1918"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022SyKn38JG442kKC2dWw0R/XEXXDwB9xf/gcMlmQ9Yo9s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/images/whatsapp.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\whatsapp.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SyKn38JG442kKC2dWw0R/XEXXDwB9xf/gcMlmQ9Yo9s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1918"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022SyKn38JG442kKC2dWw0R/XEXXDwB9xf/gcMlmQ9Yo9s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-b0Ojl3BmCwjh83ndGsaz1ZDT5QJesKMpYyYXAUtY1IA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"540"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022b0Ojl3BmCwjh83ndGsaz1ZDT5QJesKMpYyYXAUtY1IA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 16:40:31 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vFxqC5lStiqsMouY1ctyNQTIyyl/dF0tz6x9YkQHje8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5491"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vFxqC5lStiqsMouY1ctyNQTIyyl/dF0tz6x9YkQHje8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/index.kkyp8gybrx.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kkyp8gybrx"},{"Name":"integrity","Value":"sha256-vFxqC5lStiqsMouY1ctyNQTIyyl/dF0tz6x9YkQHje8="},{"Name":"label","Value":"_content/BunkerGame.Frontend/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5491"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vFxqC5lStiqsMouY1ctyNQTIyyl/dF0tz6x9YkQHje8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/room.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\room.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-k5kyA/ZmLTRtNA8KWq3q/M5kDhZMjpUrWE8yfEDcwCg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3658"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022k5kyA/ZmLTRtNA8KWq3q/M5kDhZMjpUrWE8yfEDcwCg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/room.jkr88xz0dt.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\room.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jkr88xz0dt"},{"Name":"integrity","Value":"sha256-k5kyA/ZmLTRtNA8KWq3q/M5kDhZMjpUrWE8yfEDcwCg="},{"Name":"label","Value":"_content/BunkerGame.Frontend/room.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3658"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022k5kyA/ZmLTRtNA8KWq3q/M5kDhZMjpUrWE8yfEDcwCg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/room.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\room.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AN\u002BJdJJjyac8G2Aqc4cH8RGxZ1\u002Bx\u002BZ7Or43HJ2SJ9mc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"18439"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AN\u002BJdJJjyac8G2Aqc4cH8RGxZ1\u002Bx\u002BZ7Or43HJ2SJ9mc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/room.oaowwfewo7.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\room.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oaowwfewo7"},{"Name":"integrity","Value":"sha256-AN\u002BJdJJjyac8G2Aqc4cH8RGxZ1\u002Bx\u002BZ7Or43HJ2SJ9mc="},{"Name":"label","Value":"_content/BunkerGame.Frontend/room.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18439"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AN\u002BJdJJjyac8G2Aqc4cH8RGxZ1\u002Bx\u002BZ7Or43HJ2SJ9mc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/rules.gvn7fc4eil.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\rules.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gvn7fc4eil"},{"Name":"integrity","Value":"sha256-ZKzgVuSycQn50UxmDjUijNZYA6qj\u002BN9sjlCg6iQm/sw="},{"Name":"label","Value":"_content/BunkerGame.Frontend/rules.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1669"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZKzgVuSycQn50UxmDjUijNZYA6qj\u002BN9sjlCg6iQm/sw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/rules.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\rules.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZKzgVuSycQn50UxmDjUijNZYA6qj\u002BN9sjlCg6iQm/sw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1669"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZKzgVuSycQn50UxmDjUijNZYA6qj\u002BN9sjlCg6iQm/sw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/script.6tzsh46xre.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6tzsh46xre"},{"Name":"integrity","Value":"sha256-SoWmM6QEZHAYvEwZbEX5lmiLAOVN7LTqZ9PTEXASrWo="},{"Name":"label","Value":"_content/BunkerGame.Frontend/script.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12527"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022SoWmM6QEZHAYvEwZbEX5lmiLAOVN7LTqZ9PTEXASrWo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/script.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\script.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hejM/Sd1O95hKvjzt4WpQRvjC/Bb9oVHjAnv9LaVpyg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2105"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hejM/Sd1O95hKvjzt4WpQRvjC/Bb9oVHjAnv9LaVpyg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 18 May 2025 16:09:39 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/script.xp6ubgojbo.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\script.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xp6ubgojbo"},{"Name":"integrity","Value":"sha256-hejM/Sd1O95hKvjzt4WpQRvjC/Bb9oVHjAnv9LaVpyg="},{"Name":"label","Value":"_content/BunkerGame.Frontend/script.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2105"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hejM/Sd1O95hKvjzt4WpQRvjC/Bb9oVHjAnv9LaVpyg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 18 May 2025 16:09:39 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SoWmM6QEZHAYvEwZbEX5lmiLAOVN7LTqZ9PTEXASrWo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"12527"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022SoWmM6QEZHAYvEwZbEX5lmiLAOVN7LTqZ9PTEXASrWo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wJxCtG1r1hvAZWJkZ9hOGqGh9jbpPnvJAdv3zczFn5w="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1315"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022wJxCtG1r1hvAZWJkZ9hOGqGh9jbpPnvJAdv3zczFn5w=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 18:15:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-43ieUz5GzzpjGxGUx84\u002BAcRMX3swjA50UX0A\u002BsVTuS4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"25727"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002243ieUz5GzzpjGxGUx84\u002BAcRMX3swjA50UX0A\u002BsVTuS4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/styles.cxhqua4kua.css">
+    <StaticWebAssetEndpoint Include="_content/BunkerGame.Frontend/styles.vh2dja56rm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cxhqua4kua"},{"Name":"integrity","Value":"sha256-wJxCtG1r1hvAZWJkZ9hOGqGh9jbpPnvJAdv3zczFn5w="},{"Name":"label","Value":"_content/BunkerGame.Frontend/styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1315"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022wJxCtG1r1hvAZWJkZ9hOGqGh9jbpPnvJAdv3zczFn5w=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 18:15:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vh2dja56rm"},{"Name":"integrity","Value":"sha256-43ieUz5GzzpjGxGUx84\u002BAcRMX3swjA50UX0A\u002BsVTuS4="},{"Name":"label","Value":"_content/BunkerGame.Frontend/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25727"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002243ieUz5GzzpjGxGUx84\u002BAcRMX3swjA50UX0A\u002BsVTuS4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Mar 2026 12:12:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
