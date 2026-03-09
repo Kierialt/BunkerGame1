@@ -30,6 +30,10 @@ builder.Services.AddScoped<VotingService>();
 
 // Get the connection string from environment variable or from appsettings.Production/Development.json
 string dbPath = Path.Combine(AppContext.BaseDirectory, builder.Configuration.GetValue<string>("DbPath") ?? throw new InvalidOperationException());
+// Ensure directory exists (e.g. /app/Data in Docker); SQLite does not create it
+string? dbDir = Path.GetDirectoryName(dbPath);
+if (!string.IsNullOrEmpty(dbDir))
+    Directory.CreateDirectory(dbDir);
 string connectionString = $"Data Source={dbPath}";
 
 // Configure context
