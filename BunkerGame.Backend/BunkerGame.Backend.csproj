@@ -25,9 +25,4 @@
         <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="8.1.2" />
         <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="8.1.2" />
     </ItemGroup>
-    <ItemGroup>
-        <Content Include="Data/BunkerGameDb">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </Content>
-    </ItemGroup>
 </Project>

@@ -1,14 +1,7 @@
 // Configuration for API endpoints
+// Empty BASE_URL = same origin (single server on Render). For local dev with separate Frontend/Backend set to 'http://localhost:5138'
 const API_CONFIG = {
-    // For local development
-    // BASE_URL: 'http://localhost:5138',
-    
-    // For network access with HTTPS (recommended)
-    BASE_URL: 'http://localhost:5138',
-   
-    
-    // For network access with HTTP (fallback if HTTPS doesn't work)
-    // BASE_URL: 'http://192.168.0.145:5138'
+    BASE_URL: ''
 };
 
 // Export for use in other scripts

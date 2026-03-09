@@ -167,7 +167,7 @@ Phobia: ${data.phobia}
 Luggage: ${data.luggage}
 Additional Information: ${data.additionalInformation}
 Body Type: ${data.bodyType}
-You can join our survival http://localhost:5198/index.html/`;
+You can join our survival ${window.location.origin}/index.html`;
 
         // Set share links with real data
         const encoded = encodeURIComponent(realText);

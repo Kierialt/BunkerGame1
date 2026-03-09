@@ -40,11 +40,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Register authorization service
 builder.Services.AddScoped<IAuthService, AuthService>();
 
-// Register backup service
-builder.Services.AddHostedService<BackupService>();
-
+// Backup only in non-Production (no persistent disk on Render)
+if (!builder.Environment.IsProduction())
+    builder.Services.AddHostedService<BackupService>();
 
 var app = builder.Build();
+
+// Apply migrations on startup (creates/updates SQLite DB)
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    db.Database.Migrate();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -79,6 +86,9 @@ app.UseHttpsRedirection();
 
 app.UseCors("AllowAll");
 
+// Serve frontend static files (when deployed as single app; wwwroot filled in Docker)
+app.UseDefaultFiles();
+app.UseStaticFiles();
 
 app.MapControllers();
 app.Run();
